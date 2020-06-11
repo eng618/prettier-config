@@ -7,7 +7,7 @@
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
   "scripts": {
-    "release": "auto shipit"
+    "release": "auto changelog && auto shipit"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "^9.39.0",
