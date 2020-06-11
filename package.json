@@ -5,5 +5,22 @@
   "main": "index.json",
   "repository": "git@github.com:eng618/prettier-config.git",
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "auto shipit"
+  },
+  "devDependencies": {
+    "@auto-it/all-contributors": "^9.39.0",
+    "@auto-it/conventional-commits": "^9.39.0",
+    "all-contributors-cli": "^6.16.0",
+    "auto": "^9.39.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
+    ]
+  }
 }
