@@ -1,3 +1,15 @@
+# v1.1.1 (Fri Jun 12 2020)
+
+#### ⚠️ Pushed to `master`
+
+- docs(README): add more shields ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # (Fri Jun 12 2020)
 
 #### ⚠️ Pushed to `master`
