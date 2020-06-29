@@ -44,3 +44,7 @@ $ yarn add --dev @eng618/prettier-config
   "prettier": "@eng618/prettier-config"
 }
 ```
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/ENG618/prettier-config.svg)](https://starchart.cc/ENG618/prettier-config)
