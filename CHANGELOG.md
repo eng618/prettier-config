@@ -10,6 +10,18 @@
 
 ---
 
+# v1.2.0 (Mon Jun 29 2020)
+
+#### 🚀 Enhancement
+
+- feat(README): Add stargazers over time chart ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.1.1 (Fri Jun 12 2020)
 
 #### ⚠️ Pushed to `master`
