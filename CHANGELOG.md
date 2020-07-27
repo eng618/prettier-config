@@ -1,3 +1,15 @@
+# (Mon Jul 27 2020)
+
+#### 🔩 Dependency Updates
+
+- build(deps): bump lodash from 4.17.15 to 4.17.19 [#1](https://github.com/ENG618/prettier-config/pull/1) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.2.1 (Mon Jul 27 2020)
 
 #### ⚠️ Pushed to `master`
