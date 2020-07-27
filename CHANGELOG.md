@@ -1,3 +1,15 @@
+# (Mon Jul 27 2020)
+
+#### ⚠️ Pushed to `master`
+
+- build(dependencies): updated to latest ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.2.0 (Mon Jun 29 2020)
 
 #### 🚀 Enhancement
