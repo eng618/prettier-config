@@ -1,3 +1,15 @@
+# v1.3.0 (Wed Aug 12 2020)
+
+#### 🚀 Enhancement
+
+- feat(config): add more configurations ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.2.2 (Mon Jul 27 2020)
 
 #### 🔩 Dependency Updates
