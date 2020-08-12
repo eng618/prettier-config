@@ -10,10 +10,10 @@
     "release": "auto changelog && auto shipit"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^9.48.1",
-    "@auto-it/conventional-commits": "^9.48.1",
+    "@auto-it/all-contributors": "^9.50.2",
+    "@auto-it/conventional-commits": "^9.50.2",
     "all-contributors-cli": "^6.17.0",
-    "auto": "^9.48.1"
+    "auto": "^9.50.2"
   },
   "auto": {
     "plugins": [
