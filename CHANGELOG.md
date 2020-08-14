@@ -10,6 +10,18 @@
 
 ---
 
+# v1.3.2 (Fri Aug 14 2020)
+
+#### 🐛 Bug Fix
+
+- fix(arrowParens): reverted to default ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.3.1 (Wed Aug 12 2020)
 
 #### ⚠️ Pushed to `master`
