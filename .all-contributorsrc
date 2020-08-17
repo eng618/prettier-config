@@ -9,6 +9,17 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "ENG618",
+      "name": "Eric Garcia",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3827863?v=4",
+      "profile": "https://github.com/ENG618",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
