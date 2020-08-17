@@ -10,30 +10,6 @@
 
 ---
 
-# v1.4.0 (Mon Aug 17 2020)
-
-#### 🚀 Enhancement
-
-- feat(tweet): tweet release info on success ([@ENG618](https://github.com/ENG618))
-
-#### Authors: 1
-
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
-
----
-
-# v1.3.2 (Fri Aug 14 2020)
-
-#### 🐛 Bug Fix
-
-- fix(arrowParens): reverted to default ([@ENG618](https://github.com/ENG618))
-
-#### Authors: 1
-
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
-
----
-
 # v1.3.2 (Fri Aug 14 2020)
 
 #### 🐛 Bug Fix
@@ -63,18 +39,6 @@
 #### ⚠️ Pushed to `master`
 
 - build(dependencies): updated all to latest ([@ENG618](https://github.com/ENG618))
-
-#### Authors: 1
-
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
-
----
-
-# v1.3.0 (Wed Aug 12 2020)
-
-#### 🚀 Enhancement
-
-- feat(config): add more configurations ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
@@ -154,18 +118,6 @@
 
 ---
 
-# v1.2.0 (Mon Jun 29 2020)
-
-#### 🚀 Enhancement
-
-- feat(README): Add stargazers over time chart ([@ENG618](https://github.com/ENG618))
-
-#### Authors: 1
-
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
-
----
-
 # v1.1.1 (Fri Jun 12 2020)
 
 #### ⚠️ Pushed to `master`
@@ -183,18 +135,6 @@
 #### ⚠️ Pushed to `master`
 
 - docs(README): add more shields ([@ENG618](https://github.com/ENG618))
-
-#### Authors: 1
-
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
-
----
-
-# v1.1.0 (Fri Jun 12 2020)
-
-#### 🚀 Enhancement
-
-- feat(config): add a couple more options ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
