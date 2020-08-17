@@ -7,14 +7,13 @@
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
   "scripts": {
-    "release": "auto changelog && auto shipit"
+    "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^9.50.2",
-    "@auto-it/conventional-commits": "^9.50.2",
-    "@auto-it/twitter": "^9.50.2",
-    "all-contributors-cli": "^6.17.0",
-    "auto": "^9.50.2"
+    "@auto-it/all-contributors": "^9.50.11",
+    "@auto-it/conventional-commits": "^9.50.11",
+    "@auto-it/twitter": "^9.50.11",
+    "auto": "^9.50.11"
   },
   "auto": {
     "plugins": [
@@ -22,7 +21,13 @@
       "all-contributors",
       "conventional-commits",
       "released",
-      "twitter"
+      [
+        "twitter",
+        {
+          "message": "v%version of %package was released!\n\n%link",
+          "threshold": "patch"
+        }
+      ]
     ]
   }
 }
