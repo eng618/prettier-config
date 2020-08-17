@@ -1,3 +1,19 @@
+# v1.5.0 (Mon Aug 17 2020)
+
+#### 🚀 Enhancement
+
+- feat(tweet): testing release tweet ([@ENG618](https://github.com/ENG618))
+
+#### ⚠️ Pushed to `master`
+
+- build: update plugins and release info ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.4.0 (Mon Aug 17 2020)
 
 #### 🚀 Enhancement
