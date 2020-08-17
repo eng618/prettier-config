@@ -12,6 +12,7 @@
   "devDependencies": {
     "@auto-it/all-contributors": "^9.50.2",
     "@auto-it/conventional-commits": "^9.50.2",
+    "@auto-it/twitter": "^9.50.2",
     "all-contributors-cli": "^6.17.0",
     "auto": "^9.50.2"
   },
@@ -20,7 +21,8 @@
       "npm",
       "all-contributors",
       "conventional-commits",
-      "released"
+      "released",
+      "twitter"
     ]
   }
 }
