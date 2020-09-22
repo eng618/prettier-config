@@ -10,10 +10,10 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^9.50.11",
-    "@auto-it/conventional-commits": "^9.50.11",
-    "@auto-it/twitter": "^9.50.11",
-    "auto": "^9.50.11"
+    "@auto-it/all-contributors": "^9.53.1",
+    "@auto-it/conventional-commits": "^9.53.1",
+    "@auto-it/twitter": "^9.53.1",
+    "auto": "^9.53.1"
   },
   "auto": {
     "plugins": [
