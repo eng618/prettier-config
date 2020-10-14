@@ -8,9 +8,6 @@ jobs:
     steps:
       - run: |
           curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | bash
-      - run:
-          command: fossa
-          working_directory: ~/prettier-config
       - checkout
       - node/with-cache:
           steps:
