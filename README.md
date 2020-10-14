@@ -75,3 +75,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git.svg?type=large)](https://app.fossa.com/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git?ref=badge_large)

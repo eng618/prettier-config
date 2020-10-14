@@ -17,17 +17,17 @@
   },
   "auto": {
     "plugins": [
-      "npm",
-      "all-contributors",
-      "conventional-commits",
-      "released",
       [
         "twitter",
         {
           "message": "v%version of %package was released!\n\n%link",
           "threshold": "patch"
         }
-      ]
+      ],
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
     ]
   }
 }
