@@ -1,3 +1,36 @@
+# v1.6.0 (Wed Apr 21 2021)
+
+#### 🚀 Enhancement
+
+- feat(twitter): use default message ([@ENG618](https://github.com/ENG618))
+
+#### ⚠️ Pushed to `master`
+
+- docs: update ci badge ([@ENG618](https://github.com/ENG618))
+- ci: fix auto tag issue ([@ENG618](https://github.com/ENG618))
+- ci: update to node 15 ([@ENG618](https://github.com/ENG618))
+- ci: circleci to actions ([@ENG618](https://github.com/ENG618))
+- build: update all dependencies ([@ENG618](https://github.com/ENG618))
+- build: update dependencies ([@ENG618](https://github.com/ENG618))
+- ci(fossa): remove since not building correct ([@ENG618](https://github.com/ENG618))
+- ci(fossa): test config file ([@ENG618](https://github.com/ENG618))
+- ci(license check): add foosa to builds and badge to README ([@ENG618](https://github.com/ENG618))
+- build: update all things ([@ENG618](https://github.com/ENG618))
+- build(dependencies): update all to latest ([@ENG618](https://github.com/ENG618))
+- build: ignore files for package ([@ENG618](https://github.com/ENG618))
+
+#### 🔩 Dependency Updates
+
+- build(deps): bump ini from 1.3.5 to 1.3.8 [#3](https://github.com/ENG618/prettier-config/pull/3) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump node-fetch from 2.6.0 to 2.6.1 [#4](https://github.com/ENG618/prettier-config/pull/4) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v1.5.0 (Mon Aug 17 2020)
 
 #### 🚀 Enhancement
