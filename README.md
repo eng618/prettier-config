@@ -66,12 +66,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ENG618"><img src="https://avatars3.githubusercontent.com/u/3827863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Garcia</b></sub></a><br /><a href="https://github.com/ENG618/prettier-config/commits?author=ENG618" title="Documentation">📖</a> <a href="https://github.com/ENG618/prettier-config/commits?author=ENG618" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ENG618"><img src="https://avatars3.githubusercontent.com/u/3827863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Garcia</b></sub></a><br /><a href="https://github.com/ENG618/prettier-config/commits?author=ENG618" title="Documentation">📖</a> <a href="https://github.com/ENG618/prettier-config/commits?author=ENG618" title="Code">💻</a> <a href="#infra-ENG618" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
