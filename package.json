@@ -20,7 +20,6 @@
       [
         "twitter",
         {
-          "message": "v%version of %package was released!\n\n%link",
           "threshold": "patch"
         }
       ],
