@@ -2,15 +2,15 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 5
   cacheKey: 8
 
-"@auto-it/all-contributors@npm:^10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/all-contributors@npm:10.32.0"
+"@auto-it/all-contributors@npm:^10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/all-contributors@npm:10.32.2"
   dependencies:
-    "@auto-it/bot-list": 10.32.0
-    "@auto-it/core": 10.32.0
+    "@auto-it/bot-list": 10.32.2
+    "@auto-it/core": 10.32.2
     "@octokit/rest": ^18.0.0
     all-contributors-cli: 6.19.0
     anymatch: ^3.1.1
@@ -21,22 +21,22 @@ __metadata:
     fromentries: ^1.2.0
     io-ts: ^2.1.2
     tslib: 2.1.0
-  checksum: 7ea8ff76a39ed478cf2002ed189370ba64db3b8e062b00d870bc57c8b1b511011f78b9740a93eb78f71f5e401c33d92bf7763a2b587ed118a66d00ec3506e67b
+  checksum: 809b28334b90c1dff4aaa93f41e0c2a0581357367ee84f5739eb2b45cc157bd9f61af706bf6db3afe605a36429797ce8aa2847b42b29bba04db5421c0d957a74
   languageName: node
   linkType: hard
 
-"@auto-it/bot-list@npm:10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/bot-list@npm:10.32.0"
-  checksum: 44d2a7cdc41901c14fc19b249a50660f97309e2060ca777f1fb23718865215d8a76fb98dbadfd0d2601a3398e61a8a8beefb36afa79c3e25b451aa61ad3244ad
+"@auto-it/bot-list@npm:10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/bot-list@npm:10.32.2"
+  checksum: 13bbc54ae7de263bf6665bd7d2765ae297636d645cf18fdd49eab44598fac5038c7a5297a59dd98d032cbe5d2d04a2886b9423d079cd3555ddf982ad89fbf274
   languageName: node
   linkType: hard
 
-"@auto-it/conventional-commits@npm:^10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/conventional-commits@npm:10.32.0"
+"@auto-it/conventional-commits@npm:^10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/conventional-commits@npm:10.32.2"
   dependencies:
-    "@auto-it/core": 10.32.0
+    "@auto-it/core": 10.32.2
     array.prototype.flatmap: ^1.2.2
     conventional-changelog-core: ^4.2.0
     conventional-changelog-preset-loader: ^2.3.4
@@ -45,15 +45,15 @@ __metadata:
     fp-ts: ^2.5.3
     io-ts: ^2.1.2
     tslib: 2.1.0
-  checksum: 2ab17c79a1c1126b90b9514a70100fca1e1532357f3ef683cdb348aa63592e331ca12a4f5a82022445c0c2e7f64eb44d9e077c5df1fc22866dc94efe529124c9
+  checksum: ad4041942379ac04064b3ad14fd9b2f159f587392c6dd337cea197a1bac8d8a6b234d69b5f24873c0abbb62ae7362a214554aeb66b3e6ce54bf0ddb2ac9883f7
   languageName: node
   linkType: hard
 
-"@auto-it/core@npm:10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/core@npm:10.32.0"
+"@auto-it/core@npm:10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/core@npm:10.32.2"
   dependencies:
-    "@auto-it/bot-list": 10.32.0
+    "@auto-it/bot-list": 10.32.2
     "@endemolshinegroup/cosmiconfig-typescript-loader": ^3.0.2
     "@octokit/plugin-enterprise-compatibility": ^1.2.2
     "@octokit/plugin-retry": ^3.0.1
@@ -95,16 +95,16 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 92af861596f6b65fe27483bb45fd06427a608a7601b7523b13d08c4a4e0bbd9ce1e4ec67840bb6ec0b5125929f8dfedc583b9c00a97e76f58fef73296ddab652
+  checksum: 23744a7aa9c02582e602971f4979d147c201d800841d214f6d76e8b2612b90b4e26ebff1283b422e37e1d63dec5cefa28cf8147ec9913aa127e6a15cb698bf78
   languageName: node
   linkType: hard
 
-"@auto-it/npm@npm:10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/npm@npm:10.32.0"
+"@auto-it/npm@npm:10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/npm@npm:10.32.2"
   dependencies:
-    "@auto-it/core": 10.32.0
-    "@auto-it/package-json-utils": 10.32.0
+    "@auto-it/core": 10.32.2
+    "@auto-it/package-json-utils": 10.32.2
     await-to-js: ^3.0.0
     endent: ^2.0.1
     env-ci: ^5.0.1
@@ -117,39 +117,39 @@ __metadata:
     typescript-memoize: ^1.0.0-alpha.3
     url-join: ^4.0.0
     user-home: ^2.0.0
-  checksum: 5fa4ccecd461253553e78f734eaccfe2ba1d551916c57dd114ebad92b9a2b114abde4c04480d90ddc45097658666dbc97069643b73a8b301c27cceb8b4b55970
+  checksum: 4d4a6fb1893fdeade7c333491ac5945d538191342566d8fe591cd7bc858ab097208fe2d53a3fec9b4b9ca30efc4e977e6c5a3a1b0f0b51f6cdae3818c77b5e14
   languageName: node
   linkType: hard
 
-"@auto-it/package-json-utils@npm:10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/package-json-utils@npm:10.32.0"
+"@auto-it/package-json-utils@npm:10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/package-json-utils@npm:10.32.2"
   dependencies:
     parse-author: ^2.0.0
     parse-github-url: 1.0.2
-  checksum: ccd15b2ba278e90ce227a7afc7749784345b36944b50aa03d11e16426c300ec38ce853b5eaaad0e6782e3dd7c80632762904c9b5bf59d731fceccac9f2b85a58
+  checksum: c0ef72d7c0e3c461cd6dc9977ef59fb4f7ccdb952dd8d49c95f848e669320da0093b3aa123b0a0b4ffa41eb32c1a732f76e0c3c5b507c5b84c16bb4668a45aeb
   languageName: node
   linkType: hard
 
-"@auto-it/released@npm:10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/released@npm:10.32.0"
+"@auto-it/released@npm:10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/released@npm:10.32.2"
   dependencies:
-    "@auto-it/bot-list": 10.32.0
-    "@auto-it/core": 10.32.0
+    "@auto-it/bot-list": 10.32.2
+    "@auto-it/core": 10.32.2
     deepmerge: ^4.0.0
     fp-ts: ^2.5.3
     io-ts: ^2.1.2
     tslib: 2.1.0
-  checksum: 431c657f1fb3977054c1194274e931fa32d44cc49bd95f272668592c9b6f3fc1f2d50bfb600291ec84527319222276652306022e083f15b77a7fc222f908fdd2
+  checksum: 96c12471ab3a8340082ef8cba059dfd189578496aa49059e47b28e75561fca56c267911fddd812b90131bb1ee3cbc6d6892c6693c0e9bc135ea921986f950cfb
   languageName: node
   linkType: hard
 
-"@auto-it/twitter@npm:^10.32.0":
-  version: 10.32.0
-  resolution: "@auto-it/twitter@npm:10.32.0"
+"@auto-it/twitter@npm:^10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/twitter@npm:10.32.2"
   dependencies:
-    "@auto-it/core": 10.32.0
+    "@auto-it/core": 10.32.2
     "@types/twitter-text": ^3.1.0
     endent: ^2.0.1
     fp-ts: ^2.5.3
@@ -158,7 +158,7 @@ __metadata:
     tslib: 2.1.0
     tweet-tweet: ^1.0.4
     twitter-text: ^3.0.0
-  checksum: 594132bb5d26ad4445b370ae3645267df2a13c600cc0e63a28a799e719b715c883035f153dea273dd37952551e884c25236c182ae1839baec5b873a3847b8858
+  checksum: 328705dd54bda1fc3667490ec41532288a746e7cc6c065b7c248bcf2ed6531fd69009cfcdec61e4b48eb6d514c17ec2e44e6a9e4e70a258741678e73eb14769e
   languageName: node
   linkType: hard
 
@@ -216,10 +216,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eng618/prettier-config@workspace:."
   dependencies:
-    "@auto-it/all-contributors": ^10.32.0
-    "@auto-it/conventional-commits": ^10.32.0
-    "@auto-it/twitter": ^10.32.0
-    auto: ^10.32.0
+    "@auto-it/all-contributors": ^10.32.2
+    "@auto-it/conventional-commits": ^10.32.2
+    "@auto-it/twitter": ^10.32.2
+    auto: ^10.32.2
   languageName: unknown
   linkType: soft
 
@@ -638,13 +638,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"auto@npm:^10.32.0":
-  version: 10.32.0
-  resolution: "auto@npm:10.32.0"
+"auto@npm:^10.32.2":
+  version: 10.32.2
+  resolution: "auto@npm:10.32.2"
   dependencies:
-    "@auto-it/core": 10.32.0
-    "@auto-it/npm": 10.32.0
-    "@auto-it/released": 10.32.0
+    "@auto-it/core": 10.32.2
+    "@auto-it/npm": 10.32.2
+    "@auto-it/released": 10.32.2
     await-to-js: ^3.0.0
     chalk: ^4.0.0
     command-line-application: ^0.10.1
@@ -655,7 +655,7 @@ __metadata:
     tslib: 2.1.0
   bin:
     auto: dist/bin/auto.js
-  checksum: 65d843ce3eb0ea81addec26858fe4d0972ad35648b9d107988c1e59bd23516f8f35f91c05f4aa31f01204b21e6ceff43f12ec526ac84239e680ea24ebf9862b6
+  checksum: fea773c9b8c58541e5db03f92c43976db0b8b1b521194b5d35c194d951da8874c28afb874a9864610b284f7e295681ef4d369cf5a06ca5d81411d972d5258a8b
   languageName: node
   linkType: hard
 
@@ -2977,20 +2977,20 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: bed00be983cd20a8af0e7840664f655c4b269786dbd9595c5f156cd9d8a0050e65cdbbbdafc30ee9b6245b230c78a2c8ab6447a52545b582f476c29adb188cc5
+  checksum: a0dd7d16a8e47af23afa9386df2dff10e3e0debb2c7299a42e581d9d9b04d7ad5d2c53f24f1e043f7b3c250cbdc71150063e53d0b6559683d37f790b7c8c3cd5
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@~1.7.1#~builtin<compat/resolve>":
   version: 1.7.1
-  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=07638b"
   dependencies:
     path-parse: ^1.0.5
-  checksum: ce5dafe7ffdea7ff591f183721ee507c9ed47035283926e4a2847ca77408c42d8d224979fc705cd9d0c79be8b3a5c42c662ff0a0df45962aaddb1a1559e033c4
+  checksum: c2a6f0e3856ac1ddc8297091c20ca6c36d99bf289ddea366c46bd2a7ed8b31075c7f9d01ff5d390ebed1fe41b9fabe57a79ae087992ba92e3592f0c3be07c1ac
   languageName: node
   linkType: hard
 
