@@ -28,5 +28,6 @@
       "conventional-commits",
       "released"
     ]
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
