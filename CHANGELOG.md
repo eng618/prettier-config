@@ -1,3 +1,30 @@
+# v1.6.1 (Fri Nov 05 2021)
+
+#### 🐛 Bug Fix
+
+- fix: correct .gitignore ([@eng618](https://github.com/eng618))
+
+#### ⚠️ Pushed to `master`
+
+- ci: testing new fossa config ([@eng618](https://github.com/eng618))
+- ci: update fossa config to v3 ([@eng618](https://github.com/eng618))
+- ci: update fossa to v2 ([@eng618](https://github.com/eng618))
+- ci: update fossa ([@eng618](https://github.com/eng618))
+- ci: test fossa fix ([@eng618](https://github.com/eng618))
+- build: update dependencies ([@eng618](https://github.com/eng618))
+- build: migrate to yarn v2 ([@eng618](https://github.com/eng618))
+- ci: update node version ([@eng618](https://github.com/eng618))
+- build: upgrade yarn ([@eng618](https://github.com/eng618))
+- test: setup license scanning ([@eng618](https://github.com/eng618))
+- build: update yarn.lock ([@eng618](https://github.com/eng618))
+- ci: adds check for skipping ci ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v1.6.0 (Wed Apr 21 2021)
 
 #### 🚀 Enhancement
