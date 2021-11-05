@@ -20,7 +20,7 @@ jobs:
           echo "Fetching git tags for auto"
           git fetch --unshallow --tags
           echo "Installing fossa-cli for license scanning"
-          curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | bash
+          curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | bash -s -- -b ~/temp
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
