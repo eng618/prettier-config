@@ -28,7 +28,10 @@ jobs:
           node-version: "16.x"
 
       - name: License Scan
-        run: fossa analyze
+        run: fossa test
+
+      - name: Generating License Notices
+        run: fossa report licenses > NOTICE.txt
 
       - name: Install dependencies
         run: yarn
