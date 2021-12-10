@@ -1,6 +1,7 @@
-.circleci
-.github
-.vscode
 .all-contributorsrc
+.circleci
 .env
+.github
+.tool-versions
+.vscode
 .yarn
