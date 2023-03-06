@@ -38,14 +38,14 @@ jobs:
           echo "Fetching git tags for auto"
           git fetch --unshallow --tags
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
           cache: "yarn"
 
       - name: Install dependencies
-        run: yarn
+        run: yarn install --immutable
 
       - name: Auto Info
         run: yarn auto info
