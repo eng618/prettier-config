@@ -32,6 +32,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@auto-it/bot-list@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/bot-list@npm:10.45.0"
+  checksum: 60f51c22ab9663d5465ace7f20b87f23246e40a39f6e6ab9ef4805cde7f0f681200627948d6055c58201386ff9f21f8720343639602517b3d2c4f39da6a023a3
+  languageName: node
+  linkType: hard
+
 "@auto-it/conventional-commits@npm:^10.43.0":
   version: 10.43.0
   resolution: "@auto-it/conventional-commits@npm:10.43.0"
@@ -100,12 +107,63 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auto-it/npm@npm:10.43.0":
-  version: 10.43.0
-  resolution: "@auto-it/npm@npm:10.43.0"
+"@auto-it/core@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/core@npm:10.45.0"
   dependencies:
-    "@auto-it/core": 10.43.0
-    "@auto-it/package-json-utils": 10.43.0
+    "@auto-it/bot-list": 10.45.0
+    "@endemolshinegroup/cosmiconfig-typescript-loader": ^3.0.2
+    "@octokit/core": ^3.5.1
+    "@octokit/plugin-enterprise-compatibility": 1.3.0
+    "@octokit/plugin-retry": ^3.0.9
+    "@octokit/plugin-throttling": ^3.6.2
+    "@octokit/rest": ^18.12.0
+    await-to-js: ^3.0.0
+    chalk: ^4.0.0
+    cosmiconfig: 7.0.0
+    deepmerge: ^4.0.0
+    dotenv: ^8.0.0
+    endent: ^2.1.0
+    enquirer: ^2.3.4
+    env-ci: ^5.0.1
+    fast-glob: ^3.1.1
+    fp-ts: ^2.5.3
+    fromentries: ^1.2.0
+    gitlog: ^4.0.3
+    https-proxy-agent: ^5.0.0
+    import-cwd: ^3.0.0
+    import-from: ^3.0.0
+    io-ts: ^2.1.2
+    lodash.chunk: ^4.2.0
+    log-symbols: ^4.0.0
+    node-fetch: 2.6.7
+    parse-author: ^2.0.0
+    parse-github-url: 1.0.2
+    pretty-ms: ^7.0.0
+    requireg: ^0.2.2
+    semver: ^7.0.0
+    signale: ^1.4.0
+    tapable: ^2.2.0
+    terminal-link: ^2.1.1
+    tinycolor2: ^1.4.1
+    ts-node: ^10.9.1
+    tslib: 2.1.0
+    type-fest: ^0.21.1
+    typescript-memoize: ^1.0.0-alpha.3
+    url-join: ^4.0.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: e1bf3c3ca26ac754949309cb3f4bcbbb49ac10e62596cb8296eea014e1b989c50214c2d77edf8c86e9af866b0b2d1eaa8e898bee837c6d95fe4ebbb530966040
+  languageName: node
+  linkType: hard
+
+"@auto-it/npm@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/npm@npm:10.45.0"
+  dependencies:
+    "@auto-it/core": 10.45.0
+    "@auto-it/package-json-utils": 10.45.0
     await-to-js: ^3.0.0
     endent: ^2.1.0
     env-ci: ^5.0.1
@@ -118,31 +176,31 @@ __metadata:
     typescript-memoize: ^1.0.0-alpha.3
     url-join: ^4.0.0
     user-home: ^2.0.0
-  checksum: da21caf26ec3a347ded50306625bdde16a94b2f1b6273bd29ffe2b9e7d959a3a2f9052a56919e544caf43e703c5c9177a0935d3b596018f12a2ab210bba58e9f
+  checksum: a8f666b21f3332cf43252d872543b33ff4f375c486360ef106941a74d6a2a91013f414ffdb61f2acf07bcaa867b95be4ba384974da731e3690577297ec10d891
   languageName: node
   linkType: hard
 
-"@auto-it/package-json-utils@npm:10.43.0":
-  version: 10.43.0
-  resolution: "@auto-it/package-json-utils@npm:10.43.0"
+"@auto-it/package-json-utils@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/package-json-utils@npm:10.45.0"
   dependencies:
     parse-author: ^2.0.0
     parse-github-url: 1.0.2
-  checksum: 814d1f54569f00ce81fa699d1b042327b1d5ab644a19c43376f498360e5df71249cabcd57cb3346f779e86b156da0888e0c0730475dd230565fa16c71a8eb1cd
+  checksum: e7e2650d5e94212a00ab01ccec69d1cbae6e4f4af1973b3077ffbc4d9d556baa02cfe5215c6f828b1669ace147f5620c6c3b92099da3382a68cd42a3c98a9fd2
   languageName: node
   linkType: hard
 
-"@auto-it/released@npm:10.43.0":
-  version: 10.43.0
-  resolution: "@auto-it/released@npm:10.43.0"
+"@auto-it/released@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/released@npm:10.45.0"
   dependencies:
-    "@auto-it/bot-list": 10.43.0
-    "@auto-it/core": 10.43.0
+    "@auto-it/bot-list": 10.45.0
+    "@auto-it/core": 10.45.0
     deepmerge: ^4.0.0
     fp-ts: ^2.5.3
     io-ts: ^2.1.2
     tslib: 2.1.0
-  checksum: 8c9651e2649ad76709ca2f11877be65313e79e4977a61ac5736c644c22d1a366986320fd023f3f16b130b0223f76c1720cbd9ec9e5aeb703834c70dd0a60a9d7
+  checksum: b59be68b202fa53995667445a82aa1d1484632aed13c67178aa05fdf1d21bf1e800d8090fe721a595c51c36212744f7ab5bb2ac40ca0d4ed6469f5c50b16d0a8
   languageName: node
   linkType: hard
 
@@ -163,16 +221,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auto-it/version-file@npm:10.43.0":
-  version: 10.43.0
-  resolution: "@auto-it/version-file@npm:10.43.0"
+"@auto-it/version-file@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@auto-it/version-file@npm:10.45.0"
   dependencies:
-    "@auto-it/core": 10.43.0
+    "@auto-it/core": 10.45.0
     fp-ts: ^2.5.3
     io-ts: ^2.1.2
     semver: ^7.0.0
     tslib: 1.10.0
-  checksum: 371a65216d478d2b66af8e3911c24f4107b34b11704a3f96df628df520b1da7c32c1c94002ef6eb2aff818f6e2e621602f507a57cfc6ad1a7d17b204f7fb4a1d
+  checksum: 621dec188b4ead0dbd1a704848b1e7abd3fe9113159535a964afb010b1ffbf1cc67c3668fe29f9f36372399e2dbb01a51730b12afeaf71e6c084083fa7f64bc8
   languageName: node
   linkType: hard
 
@@ -771,13 +829,13 @@ __metadata:
   linkType: hard
 
 "auto@npm:^10.43.0":
-  version: 10.43.0
-  resolution: "auto@npm:10.43.0"
+  version: 10.45.0
+  resolution: "auto@npm:10.45.0"
   dependencies:
-    "@auto-it/core": 10.43.0
-    "@auto-it/npm": 10.43.0
-    "@auto-it/released": 10.43.0
-    "@auto-it/version-file": 10.43.0
+    "@auto-it/core": 10.45.0
+    "@auto-it/npm": 10.45.0
+    "@auto-it/released": 10.45.0
+    "@auto-it/version-file": 10.45.0
     await-to-js: ^3.0.0
     chalk: ^4.0.0
     command-line-application: ^0.10.1
@@ -788,7 +846,7 @@ __metadata:
     tslib: 2.1.0
   bin:
     auto: dist/bin/auto.js
-  checksum: 57c6d6a82362194c5cd393905bbf9d82b713f885b8d6ecb7fb95f66007e48a28322746d6732ccaf93c3f0fad81d752f3476dab97de6c1c25cac324e5462a0699
+  checksum: aec0082f3cd88d663cb6469565579d44fc12c6278a10394b91eaad2e17dcdde20d397713943a08a910417900b5cb1acf8605e57e1cf9101a4db8506093b1266e
   languageName: node
   linkType: hard
 
