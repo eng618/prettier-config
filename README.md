@@ -35,7 +35,10 @@
 
 </div>
 
-> My personal [Prettier](https://prettier.io) config.
+My personal [Prettier](https://prettier.io) config. You can find it published here:
+
+- [npmjs.com](https://www.npmjs.com/package/@eng618/prettier-config)
+- [yarnpkg.com](https://yarnpkg.com/package/@eng618/prettier-config)
 
 ## Usage
 
