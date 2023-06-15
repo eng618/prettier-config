@@ -1,3 +1,43 @@
+# v1.6.2 (Thu Jun 15 2023)
+
+#### 🐛 Bug Fix
+
+- ci: update configs [#28](https://github.com/eng618/prettier-config/pull/28) ([@eng618](https://github.com/eng618))
+- chore: add links to README [#27](https://github.com/eng618/prettier-config/pull/27) ([@eng618](https://github.com/eng618))
+
+#### ⚠️ Pushed to `main`
+
+- chore: manual release ([@eng618](https://github.com/eng618))
+- build: bump dependencies ([@eng618](https://github.com/eng618))
+- build: update yarn ([@eng618](https://github.com/eng618))
+- chore: bump node version ([@eng618](https://github.com/eng618))
+- ci: update dependabot config ([@eng618](https://github.com/eng618))
+- ci: dependepot config ([@eng618](https://github.com/eng618))
+- ci: build PRs also ([@eng618](https://github.com/eng618))
+- ci: bump actions checkout version ([@eng618](https://github.com/eng618))
+- ci: add yarn cache ([@eng618](https://github.com/eng618))
+- build: update node version ([@eng618](https://github.com/eng618))
+- ci: update actions ([@eng618](https://github.com/eng618))
+- build: add local node version ([@eng618](https://github.com/eng618))
+- build: update deps to latest ([@eng618](https://github.com/eng618))
+
+#### 🔩 Dependency Updates
+
+- build(deps): bump node-fetch from 2.6.1 to 2.6.7 [#14](https://github.com/eng618/prettier-config/pull/14) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump trim-off-newlines from 1.0.1 to 1.0.3 [#11](https://github.com/eng618/prettier-config/pull/11) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump minimatch from 3.0.4 to 3.1.2 [#10](https://github.com/eng618/prettier-config/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump shelljs from 0.8.4 to 0.8.5 [#9](https://github.com/eng618/prettier-config/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump ansi-regex from 5.0.0 to 5.0.1 [#12](https://github.com/eng618/prettier-config/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump async from 3.2.0 to 3.2.4 [#13](https://github.com/eng618/prettier-config/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump minimist from 1.2.5 to 1.2.8 [#8](https://github.com/eng618/prettier-config/pull/8) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v1.6.1 (Fri Nov 05 2021)
 
 #### 🐛 Bug Fix
