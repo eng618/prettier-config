@@ -13,7 +13,7 @@
     "@auto-it/all-contributors": "^10.46.0",
     "@auto-it/conventional-commits": "^10.46.0",
     "@auto-it/twitter": "^10.46.0",
-    "auto": "^10.46.0"
+    "auto": "^11.0.0"
   },
   "auto": {
     "plugins": [
