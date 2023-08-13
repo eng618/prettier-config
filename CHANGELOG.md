@@ -1,3 +1,15 @@
+# v1.7.2 (Sun Aug 13 2023)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump semver [#35](https://github.com/eng618/prettier-config/pull/35) ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v1.7.1 (Sun Aug 13 2023)
 
 #### 🐛 Bug Fix
