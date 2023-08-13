@@ -1,3 +1,15 @@
+# v1.7.1 (Sun Aug 13 2023)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump semver from 5.7.1 to 5.7.2 [#29](https://github.com/eng618/prettier-config/pull/29) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.7.0 (Sun Aug 13 2023)
 
 #### 🚀 Enhancement
