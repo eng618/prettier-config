@@ -1,3 +1,15 @@
+# v1.7.0 (Sun Aug 13 2023)
+
+#### 🚀 Enhancement
+
+- build(deps): bump all [#34](https://github.com/eng618/prettier-config/pull/34) ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v1.6.2 (Thu Jun 15 2023)
 
 #### 🐛 Bug Fix
