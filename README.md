@@ -1,6 +1,6 @@
-<div align="center">
-
 # `@ENG618/prettier-config`
+
+<div align="center">
 
 <!-- Build and release -->
 
