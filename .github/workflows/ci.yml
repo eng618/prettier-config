@@ -34,13 +34,6 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') }}
     steps:
       - uses: actions/checkout@v4
-        # with:
-        #   token: ${{ secrets.GH_TOKEN }}
-
-      - name: Prepare repository
-        run: |
-          echo "Fetching git tags for auto"
-          git fetch --unshallow --tags
 
       - name: Use Node.js 20.x
         uses: actions/setup-node@v4
@@ -51,17 +44,21 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
-      - name: Auto Info
-        run: yarn auto info
+      - name: Initialize Git user
+        run: |
+          git config --global user.name "Eric N. Garcia"
+          git config --global user.email "eng618@garciaericn.com"
 
-      - name: Auto Release
+      - name: Initialize the NPM config
+        run: |
+          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Release It
         run: yarn release
 
     env:
-      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-      TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-      TWITTER_CONSUMER_KEY_SECRET: ${{ secrets.TWITTER_CONSUMER_KEY_SECRET }}
       FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}

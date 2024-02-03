@@ -10,32 +10,36 @@
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
   "scripts": {
-    "release": "auto shipit"
+    "release": "release-it",
+    "release:ci": "release-it --ci"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^11.0.4",
-    "@auto-it/conventional-commits": "^11.0.4",
-    "@auto-it/npm": "^11.0.4",
-    "@auto-it/released": "^11.0.4",
-    "@auto-it/twitter": "^11.0.4",
-    "auto": "^11.0.4"
+    "release-it": "^17.0.3"
   },
   "resolutions": {
     "semver": "^7.5.4"
   },
-  "auto": {
-    "plugins": [
-      [
-        "twitter",
-        {
-          "threshold": "patch"
-        }
-      ],
-      "npm",
-      "all-contributors",
-      "conventional-commits",
-      "released"
-    ]
+  "hooks": {
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "header": "# Changelog",
+        "preset": "conventionalcommits"
+      }
+    },
+    "github": {
+      "release": true
+    }
   },
   "packageManager": "yarn@4.1.0"
 }
