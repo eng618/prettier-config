@@ -1,3 +1,31 @@
+# v1.8.0 (Sat Feb 03 2024)
+
+#### 🚀 Enhancement
+
+- feat: npm pkg fix ([@eng618](https://github.com/eng618))
+- feat: force release ([@eng618](https://github.com/eng618))
+- feat: fully updated builds ([@eng618](https://github.com/eng618))
+
+#### ⚠️ Pushed to `main`
+
+- build: add missing dependencies ([@eng618](https://github.com/eng618))
+- ci: checkout test ([@eng618](https://github.com/eng618))
+- build(node): bump default to 20 ([@eng618](https://github.com/eng618))
+- build(deps): bump minor and below ([@eng618](https://github.com/eng618))
+- build(yarn): update to latest ([@eng618](https://github.com/eng618))
+
+#### 🔩 Dependency Updates
+
+- build(deps): bump actions/setup-node from 3 to 4 [#41](https://github.com/eng618/prettier-config/pull/41) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump actions/checkout from 3 to 4 [#40](https://github.com/eng618/prettier-config/pull/40) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v1.7.2 (Sun Aug 13 2023)
 
 #### 🐛 Bug Fix
