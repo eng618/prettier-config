@@ -3,7 +3,10 @@
   "version": "1.7.2",
   "description": "My personal Prettier config",
   "main": "index.json",
-  "repository": "git@github.com:eng618/prettier-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eng618/prettier-config.git"
+  },
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
   "scripts": {
