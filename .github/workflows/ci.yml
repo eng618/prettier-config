@@ -52,8 +52,15 @@ jobs:
       - name: Initialize the NPM config
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          SSH_PRIVATE_KEY: ${{ SECRETS.SSH_PRIVATE_KEY }}
 
       - name: Release It
         run: yarn release
