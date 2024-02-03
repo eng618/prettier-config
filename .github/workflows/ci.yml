@@ -49,12 +49,25 @@ jobs:
           git config --global user.name "Eric N. Garcia"
           git config --global user.email "eng618@garciaericn.com"
 
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ SECRETS.SSH_PRIVATE_KEY }}
+
       - name: Initialize the NPM config
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 
       - name: Release It
         run: yarn release
+
+      - name: Cleanup SSH
+        run: |
+          rm -rf ~/.ssh
 
     env:
       FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}
