@@ -63,7 +63,7 @@ jobs:
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 
       - name: Release It
-        run: yarn release
+        run: yarn release:ci
 
       - name: Cleanup SSH
         run: |
