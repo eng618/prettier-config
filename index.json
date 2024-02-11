@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
-  "arrowParent": "always",
+  "arrowParens": "always",
   "bracketSpacing": true,
   "endOfLine": "lf",
   "jsxSingleQuote": true,
