@@ -1,3 +1,23 @@
+# Changelog
+
+## [2.0.0](https://github.com/eng618/prettier-config/compare/v1.7.8...v2.0.0) (2024-02-11)
+
+
+### Features
+
+* force release ([97fa0c7](https://github.com/eng618/prettier-config/commit/97fa0c75d9246111d04e40b5c78eba1a09baf1c0))
+
+
+### Bug Fixes
+
+* ci remove ssh ([a2e86d8](https://github.com/eng618/prettier-config/commit/a2e86d83ae63b43238b7f4deb43af29d35587f7a))
+* correct version ([fd47a66](https://github.com/eng618/prettier-config/commit/fd47a66758b9081a6492a420d9389ed057aafb72))
+
+
+### Reverts
+
+* Revert "ci: test updated config" ([abe94fb](https://github.com/eng618/prettier-config/commit/abe94fb66aa668e3315ff260b289b68399cb75c0))
+
 # v1.7.2 (Sun Aug 13 2023)
 
 #### 🐛 Bug Fix
