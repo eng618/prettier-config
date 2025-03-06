@@ -11,7 +11,10 @@
   "license": "MIT",
   "scripts": {
     "release": "release-it",
-    "release:ci": "release-it --ci"
+    "release:ci": "release-it --ci",
+    "bump-patch": "yarn version patch && git add . && git commit -m \"chore: bump version to $(jq -r .version package.json)\"",
+    "bump-minor": "yarn version minor && git add . && git commit -m \"chore: bump version to $(jq -r .version package.json)\"",
+    "bump-major": "yarn version major && git add . && git commit -m \"chore: bump version to $(jq -r .version package.json)\""
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.0",
