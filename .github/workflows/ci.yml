@@ -29,7 +29,7 @@ jobs:
           api-key: ${{secrets.FOSSA_API_KEY}}
           run-tests: true
 
-  build-and-release:
+  build:
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') }}
     steps:
@@ -43,25 +43,3 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --immutable
-
-      - name: Initialize Git user
-        run: |
-          git config --global user.name "Eric N. Garcia"
-          git config --global user.email "eng618@garciaericn.com"
-
-      - name: Initialize the NPM config
-        run: |
-          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-
-      - name: Release It
-        run: yarn release:ci
-
-      - name: Cleanup SSH
-        run: |
-          rm -rf ~/.ssh
-
-    env:
-      FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
