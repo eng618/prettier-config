@@ -30,7 +30,7 @@
   "release-it": {
     "git": {
       "pushRepo": "git@github.com:eng618/prettier-config.git",
-      "commitMessage": "chore: release ${version} [skip ci],"
+      "commitMessage": "chore: release ${version} [skip ci]"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
