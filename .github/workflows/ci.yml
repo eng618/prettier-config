@@ -1,5 +1,6 @@
 name: CI
 permissions:
+  checks: read # Allows status checks
   contents: write # Allows commits and tags
   packages: write # Allows npm publish
   pull-requests: write # For PRs if needed
