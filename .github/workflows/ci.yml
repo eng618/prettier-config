@@ -71,6 +71,23 @@ jobs:
           git config --global user.email "eng618@garciaericn.com"
           git remote set-url origin https://github.com/eng618/prettier-config.git
 
+      - name: Wait for build status
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const context = github.context;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const ref = context.ref;
+            const status = await github.rest.repos.getCombinedStatusForRef({
+              owner,
+              repo,
+              ref
+            });
+            if (status.data.state !== 'success') {
+              throw new Error('Build status check failed');
+            }
+
       - name: Run release-it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
