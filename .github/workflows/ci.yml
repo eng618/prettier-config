@@ -46,3 +46,36 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --immutable
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build # Add this line to depend on the build job
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' # Add this condition
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures full history for changelog
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org/" # Sets npm registry
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "Eric N. Garcia (actions)"
+          git config --global user.email "eng618@garciaericn.com"
+          # Ensure Git uses HTTPS with GITHUB_TOKEN
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eng618/prettier-config.git
+
+      - name: Run release-it
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # For npm publish
+        run: yarn release:ci
