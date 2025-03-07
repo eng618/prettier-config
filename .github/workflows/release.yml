@@ -1,4 +1,9 @@
 name: Release
+permissions:
+  contents: write
+  deployments: write
+  id-token: write
+  packages: write
 
 on:
   push:
