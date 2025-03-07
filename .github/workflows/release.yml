@@ -1,14 +1,15 @@
 name: Release
 permissions:
-  contents: write
-  deployments: write
-  id-token: write
-  packages: write
+  contents: write # Needed for Git commits/tags
+  deployments: write # Optional unless deploying elsewhere
+  id-token: write # Optional unless using OIDC
+  packages: write # Needed for npm publish
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   release:
@@ -17,33 +18,27 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures full history for changelog
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22.x"
-          registry-url: "https://registry.npmjs.org/"
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org/" # Sets npm registry
 
       - name: Install dependencies
         run: yarn install --immutable
 
-      - name: Initialize Git user
+      - name: Configure Git
         run: |
-          git config --global user.name "Eric N. Garcia"
+          git config --global user.name "Eric N. Garcia (actions)"
           git config --global user.email "eng618@garciaericn.com"
-
-      - name: Initialize the NPM config
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Your npm token
-        run: |
-          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          # Ensure Git uses HTTPS with GITHUB_TOKEN
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eng618/prettier-config.git
 
       - name: Run release-it
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Your npm token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # For npm publish
         run: yarn release:ci
-
-      - name: Cleanup SSH
-        run: |
-          rm -rf ~/.ssh

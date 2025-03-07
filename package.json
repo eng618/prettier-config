@@ -1,11 +1,11 @@
 {
   "name": "@eng618/prettier-config",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "My personal Prettier config",
   "main": "index.json",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/eng618/prettier-config.git"
+    "url": "https://github.com/eng618/prettier-config.git"
   },
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
@@ -38,8 +38,9 @@
   },
   "release-it": {
     "git": {
-      "pushRepo": "git@github.com:eng618/prettier-config.git",
-      "commitMessage": "chore: release ${version} [skip ci]"
+      "commitMessage": "chore: release ${version} [skip ci]",
+      "tagName": "v${version}",
+      "push": true
     },
     "plugins": {
       "@release-it/conventional-changelog": {
