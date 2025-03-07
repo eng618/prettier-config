@@ -75,9 +75,9 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { github, ref } = github.context;
-            const owner = github.context.repo.owner;
-            const repo = github.context.repo.repo;
+            const { context, github } = require('@actions/github');
+            const { owner, repo } = context.repo;
+            const ref = context.ref;
             const status = await github.rest.repos.getCombinedStatusForRef({
               owner,
               repo,
