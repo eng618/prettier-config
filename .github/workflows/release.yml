@@ -29,6 +29,8 @@ jobs:
           git config --global user.email "eng618@garciaericn.com"
 
       - name: Initialize the NPM config
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Your npm token
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 
