@@ -65,14 +65,27 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Configure Git
         run: |
           git config --global user.name "Eric N. Garcia (actions)"
           git config --global user.email "eng618@garciaericn.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eng618/prettier-config.git
+          git remote set-url origin git@github.com:eng618/prettier-config.git
 
       - name: Run release-it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn release:ci
+
+      - name: Cleanup SSH
+        run: |
+          rm -rf ~/.ssh
