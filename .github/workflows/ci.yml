@@ -72,9 +72,6 @@ jobs:
           git config --global user.email "eng618@garciaericn.com"
           git remote set-url origin https://github.com/eng618/prettier-config.git
 
-      - name: Wait for 30 seconds
-        run: sleep 30
-
       - name: Run release-it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
