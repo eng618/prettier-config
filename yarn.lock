@@ -75,6 +75,8 @@ __metadata:
   dependencies:
     "@release-it/conventional-changelog": "npm:^10.0.0"
     release-it: "npm:^18.1.2"
+  peerDependencies:
+    prettier: ^2.0.0 || ^3.0.0
   languageName: unknown
   linkType: soft
 
