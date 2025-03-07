@@ -47,7 +47,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    needs: [build, fossa-scan] # Depend on both jobs
+    needs: build
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' # Only run on main branch pushes
     steps:
       - name: Checkout code
@@ -68,7 +68,7 @@ jobs:
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
         env:
