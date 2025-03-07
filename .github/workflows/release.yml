@@ -1,13 +1,15 @@
 name: Release
+
 on:
   push:
     tags:
-      - "v*"
+      - "v*" # Triggers on version tags like v1.0.0
   workflow_dispatch:
 
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -16,12 +18,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22.x"
+          registry-url: "https://registry.npmjs.org/"
 
       - name: Install dependencies
         run: yarn install --immutable
-
-      - name: Build project
-        run: yarn build
 
       - name: Initialize Git user
         run: |
@@ -32,13 +32,12 @@ jobs:
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 
-      - name: Release It
+      - name: Run release-it
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Your npm token
         run: yarn release:ci
 
       - name: Cleanup SSH
         run: |
           rm -rf ~/.ssh
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

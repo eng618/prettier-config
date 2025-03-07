@@ -27,7 +27,10 @@
     "semver": "^7.5.4"
   },
   "hooks": {
-    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}.",
+    "after:bump": [
+      "yarn build"
+    ]
   },
   "publishConfig": {
     "access": "public",
