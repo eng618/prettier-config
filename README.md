@@ -49,6 +49,12 @@ A baseline [Prettier](https://prettier.io) config, with sensible defaults. You c
 yarn add --dev @eng618/prettier-config
 ```
 
+or
+
+```bash
+npm install --save-dev @eng618/prettier-config 
+```
+
 **Edit `package.json`**:
 
 ```jsonc
