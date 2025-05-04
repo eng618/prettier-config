@@ -17,7 +17,7 @@
     "bump-major": "yarn version major && git add . && git commit -m \"chore: bump version to $(jq -r .version package.json)\" && git tag v$(jq -r .version package.json)"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^10.0.0",
+    "@release-it/conventional-changelog": "^10.0.1",
     "release-it": "^18.1.2"
   },
   "peerDependencies": {
