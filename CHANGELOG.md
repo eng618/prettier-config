@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.2.15](https://github.com/eng618/prettier-config/compare/v2.2.14...v2.2.15) (2025-05-05)
+
 ## [2.2.14](https://github.com/eng618/prettier-config/compare/v2.2.7...v2.2.14) (2025-03-07)
 
 ## [2.2.5](https://github.com/eng618/prettier-config/compare/v2.2.4...v2.2.5) (2025-03-07)
