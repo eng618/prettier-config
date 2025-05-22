@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.3.1](https://github.com/eng618/prettier-config/compare/v2.3.0...v2.3.1) (2025-05-22)
+
 ## [2.3.0](https://github.com/eng618/prettier-config/compare/v2.2.17...v2.3.0) (2025-05-22)
 
 ### Features
