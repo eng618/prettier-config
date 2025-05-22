@@ -1,7 +1,5 @@
 # `@ENG618/prettier-config`
 
-<div align="center">
-
 <!-- Build and release -->
 
 [![CI](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml)
