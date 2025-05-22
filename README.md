@@ -64,6 +64,14 @@ npm install --save-dev @eng618/prettier-config
 }
 ```
 
+**Or use in a Prettier config file (ESM):**
+
+```js
+// prettier.config.js or .prettierrc.js
+import config from '@eng618/prettier-config';
+export default config;
+```
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/ENG618/prettier-config.svg)](https://starchart.cc/ENG618/prettier-config)
