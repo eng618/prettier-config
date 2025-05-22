@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.0](https://github.com/eng618/prettier-config/compare/v2.2.17...v2.3.0) (2025-05-22)
+
+### Features
+
+* migrate Prettier config to ESM and remove JSON config ([f1f2427](https://github.com/eng618/prettier-config/commit/f1f2427a11f65081e8f018fce7017bcc76a7f863))
+
 ## [2.2.17](https://github.com/eng618/prettier-config/compare/v2.2.16...v2.2.17) (2025-05-05)
 
 ## [2.2.16](https://github.com/eng618/prettier-config/compare/v2.2.15...v2.2.16) (2025-05-05)
