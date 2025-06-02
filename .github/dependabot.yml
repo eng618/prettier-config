@@ -5,15 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: 'npm' # See documentation for possible values
-    directory: '/' # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: 'monthly'
-    reviewers:
-      - 'eng618'
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+      interval: "monthly"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: 'monthly'
-    reviewers:
-      - 'eng618'
+      interval: "monthly"
