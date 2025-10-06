@@ -46,7 +46,7 @@ __metadata:
   resolution: "@eng618/prettier-config@workspace:."
   dependencies:
     "@release-it/conventional-changelog": "npm:^10.0.1"
-    release-it: "npm:^19.0.2"
+    release-it: "npm:^19.0.5"
   peerDependencies:
     prettier: ^2.0.0 || ^3.0.0
   languageName: unknown
@@ -1963,7 +1963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^19.0.2":
+"release-it@npm:^19.0.5":
   version: 19.0.5
   resolution: "release-it@npm:19.0.5"
   dependencies:

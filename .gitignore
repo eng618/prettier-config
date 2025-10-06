@@ -9,3 +9,7 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
