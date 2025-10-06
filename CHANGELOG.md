@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.7](https://github.com/eng618/prettier-config/compare/v2.4.6...v2.4.7) (2025-10-06)
+
+### Bug Fixes
+
+* security fix for @conventional-changelog/git-client ([a97136c](https://github.com/eng618/prettier-config/commit/a97136c2416336857f60bd21f7e90d11d370040a))
+
 ## [2.4.6](https://github.com/eng618/prettier-config/compare/v2.4.5...v2.4.6) (2025-10-06)
 
 ### Bug Fixes

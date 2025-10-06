@@ -1,6 +1,6 @@
 {
   "name": "@eng618/prettier-config",
-  "version": "2.4.6",
+  "version": "2.4.7",
   "description": "My personal Prettier config",
   "exports": {
     ".": "./index.js"
