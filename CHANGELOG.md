@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.6](https://github.com/eng618/prettier-config/compare/v2.4.5...v2.4.6) (2025-10-06)
+
+### Bug Fixes
+
+* version ([b0f7f70](https://github.com/eng618/prettier-config/commit/b0f7f70ffe3349e85c3d562fa2d6ee7bb82b4a0b))
+
 ## [2.4.4](https://github.com/eng618/prettier-config/compare/v2.4.3...v2.4.4) (2025-09-01)
 
 ## [2.4.3](https://github.com/eng618/prettier-config/compare/v2.4.2...v2.4.3) (2025-09-01)
