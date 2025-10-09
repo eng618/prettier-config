@@ -70,6 +70,38 @@ import config from '@eng618/prettier-config';
 export default config;
 ```
 
+**CommonJS usage:**
+
+```js
+// prettier.config.js or .prettierrc.js
+const config = require('@eng618/prettier-config');
+module.exports = config;
+```
+
+**TypeScript projects:**
+
+```js
+// prettier.config.js or .prettierrc.js
+import config from '@eng618/prettier-config';
+export default config;
+```
+
+The package includes TypeScript declarations, so you'll get full type safety and IntelliSense support in TypeScript-aware editors.
+
+## Configuration Details
+
+This configuration includes the following formatting rules:
+
+- **Print Width**: 120 characters (wider than default for modern screens)
+- **Single Quotes**: Uses single quotes instead of double quotes
+- **Trailing Commas**: Adds trailing commas in objects, arrays, and function parameters
+- **Arrow Function Parens**: Always includes parentheses around arrow function parameters
+- **Tabs vs Spaces**: Uses 2 spaces for indentation
+- **Line Endings**: Uses LF (Unix-style) line endings
+- **YAML Files**: Special override to use double quotes for YAML files
+
+> **Note**: This package migrated to ESM format in v2.3.0. If you're upgrading from an earlier version and encounter import errors, ensure your project supports ES modules or use the CommonJS example above.
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/ENG618/prettier-config.svg)](https://starchart.cc/ENG618/prettier-config)
