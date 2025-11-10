@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.9](https://github.com/eng618/prettier-config/compare/v2.4.8...v2.4.9) (2025-11-10)
+
+### Bug Fixes
+
+* **prettier:** update hbs file parser configuration ([0683e37](https://github.com/eng618/prettier-config/commit/0683e37363d87cf5db6d04b3293cfa707fdc520e))
+
 ## [2.4.8](https://github.com/eng618/prettier-config/compare/v2.4.7...v2.4.8) (2025-11-01)
 
 ## [2.4.7](https://github.com/eng618/prettier-config/compare/v2.4.6...v2.4.7) (2025-10-06)
