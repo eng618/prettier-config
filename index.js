@@ -16,6 +16,12 @@ const config = {
         singleQuote: false,
       },
     },
+    {
+      files: "*.hbs",
+      options: {
+        parser: "html",
+      },
+    },
   ],
 };
 
