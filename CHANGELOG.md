@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.12](///compare/v2.4.10...v2.4.12) (2025-12-01)
+
+### Bug Fixes
+
+* prefix repository URL with git+ protocol 3675464
+
 ## [2.4.10](https://github.com/eng618/prettier-config/compare/v2.4.9...v2.4.10) (2025-12-01)
 
 ## [2.4.9](https://github.com/eng618/prettier-config/compare/v2.4.8...v2.4.9) (2025-11-10)
