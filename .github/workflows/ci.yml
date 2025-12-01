@@ -18,7 +18,7 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Run FOSSA Scan
         uses: fossas/fossa-action@main
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Use Node.js 22.x
         uses: actions/setup-node@v6
@@ -52,7 +52,7 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' # Only run on main branch pushes
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Full history for changelog
           token: ${{ secrets.GITHUB_TOKEN }} # Use token with write perms
