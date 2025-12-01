@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.4.10](https://github.com/eng618/prettier-config/compare/v2.4.9...v2.4.10) (2025-12-01)
+
 ## [2.4.9](https://github.com/eng618/prettier-config/compare/v2.4.8...v2.4.9) (2025-11-10)
 
 ### Bug Fixes
@@ -56,17 +58,14 @@
 
 ## [2.0.0](https://github.com/eng618/prettier-config/compare/v1.7.8...v2.0.0) (2024-02-11)
 
-
 ### Features
 
 * force release ([97fa0c7](https://github.com/eng618/prettier-config/commit/97fa0c75d9246111d04e40b5c78eba1a09baf1c0))
-
 
 ### Bug Fixes
 
 * ci remove ssh ([a2e86d8](https://github.com/eng618/prettier-config/commit/a2e86d83ae63b43238b7f4deb43af29d35587f7a))
 * correct version ([fd47a66](https://github.com/eng618/prettier-config/commit/fd47a66758b9081a6492a420d9389ed057aafb72))
-
 
 ### Reverts
 
@@ -76,11 +75,11 @@
 
 #### 🐛 Bug Fix
 
-- build(deps): bump semver [#35](https://github.com/eng618/prettier-config/pull/35) ([@eng618](https://github.com/eng618))
+* build(deps): bump semver [#35](https://github.com/eng618/prettier-config/pull/35) ([@eng618](https://github.com/eng618))
 
 #### Authors: 1
 
-- Eric Garcia ([@eng618](https://github.com/eng618))
+* Eric Garcia ([@eng618](https://github.com/eng618))
 
 ---
 
@@ -88,11 +87,11 @@
 
 #### 🐛 Bug Fix
 
-- build(deps): bump semver from 5.7.1 to 5.7.2 [#29](https://github.com/eng618/prettier-config/pull/29) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump semver from 5.7.1 to 5.7.2 [#29](https://github.com/eng618/prettier-config/pull/29) ([@dependabot[bot]](https://github.com/dependabot[bot]))
 
 #### Authors: 1
 
-- [@dependabot[bot]](https://github.com/dependabot[bot])
+* [@dependabot[bot]](https://github.com/dependabot[bot])
 
 ---
 
@@ -100,11 +99,11 @@
 
 #### 🚀 Enhancement
 
-- build(deps): bump all [#34](https://github.com/eng618/prettier-config/pull/34) ([@eng618](https://github.com/eng618))
+* build(deps): bump all [#34](https://github.com/eng618/prettier-config/pull/34) ([@eng618](https://github.com/eng618))
 
 #### Authors: 1
 
-- Eric Garcia ([@eng618](https://github.com/eng618))
+* Eric Garcia ([@eng618](https://github.com/eng618))
 
 ---
 
@@ -112,39 +111,39 @@
 
 #### 🐛 Bug Fix
 
-- ci: update configs [#28](https://github.com/eng618/prettier-config/pull/28) ([@eng618](https://github.com/eng618))
-- chore: add links to README [#27](https://github.com/eng618/prettier-config/pull/27) ([@eng618](https://github.com/eng618))
+* ci: update configs [#28](https://github.com/eng618/prettier-config/pull/28) ([@eng618](https://github.com/eng618))
+* chore: add links to README [#27](https://github.com/eng618/prettier-config/pull/27) ([@eng618](https://github.com/eng618))
 
 #### ⚠️ Pushed to `main`
 
-- chore: manual release ([@eng618](https://github.com/eng618))
-- build: bump dependencies ([@eng618](https://github.com/eng618))
-- build: update yarn ([@eng618](https://github.com/eng618))
-- chore: bump node version ([@eng618](https://github.com/eng618))
-- ci: update dependabot config ([@eng618](https://github.com/eng618))
-- ci: dependepot config ([@eng618](https://github.com/eng618))
-- ci: build PRs also ([@eng618](https://github.com/eng618))
-- ci: bump actions checkout version ([@eng618](https://github.com/eng618))
-- ci: add yarn cache ([@eng618](https://github.com/eng618))
-- build: update node version ([@eng618](https://github.com/eng618))
-- ci: update actions ([@eng618](https://github.com/eng618))
-- build: add local node version ([@eng618](https://github.com/eng618))
-- build: update deps to latest ([@eng618](https://github.com/eng618))
+* chore: manual release ([@eng618](https://github.com/eng618))
+* build: bump dependencies ([@eng618](https://github.com/eng618))
+* build: update yarn ([@eng618](https://github.com/eng618))
+* chore: bump node version ([@eng618](https://github.com/eng618))
+* ci: update dependabot config ([@eng618](https://github.com/eng618))
+* ci: dependepot config ([@eng618](https://github.com/eng618))
+* ci: build PRs also ([@eng618](https://github.com/eng618))
+* ci: bump actions checkout version ([@eng618](https://github.com/eng618))
+* ci: add yarn cache ([@eng618](https://github.com/eng618))
+* build: update node version ([@eng618](https://github.com/eng618))
+* ci: update actions ([@eng618](https://github.com/eng618))
+* build: add local node version ([@eng618](https://github.com/eng618))
+* build: update deps to latest ([@eng618](https://github.com/eng618))
 
 #### 🔩 Dependency Updates
 
-- build(deps): bump node-fetch from 2.6.1 to 2.6.7 [#14](https://github.com/eng618/prettier-config/pull/14) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump trim-off-newlines from 1.0.1 to 1.0.3 [#11](https://github.com/eng618/prettier-config/pull/11) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump minimatch from 3.0.4 to 3.1.2 [#10](https://github.com/eng618/prettier-config/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump shelljs from 0.8.4 to 0.8.5 [#9](https://github.com/eng618/prettier-config/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump ansi-regex from 5.0.0 to 5.0.1 [#12](https://github.com/eng618/prettier-config/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump async from 3.2.0 to 3.2.4 [#13](https://github.com/eng618/prettier-config/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump minimist from 1.2.5 to 1.2.8 [#8](https://github.com/eng618/prettier-config/pull/8) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump node-fetch from 2.6.1 to 2.6.7 [#14](https://github.com/eng618/prettier-config/pull/14) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump trim-off-newlines from 1.0.1 to 1.0.3 [#11](https://github.com/eng618/prettier-config/pull/11) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump minimatch from 3.0.4 to 3.1.2 [#10](https://github.com/eng618/prettier-config/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump shelljs from 0.8.4 to 0.8.5 [#9](https://github.com/eng618/prettier-config/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump ansi-regex from 5.0.0 to 5.0.1 [#12](https://github.com/eng618/prettier-config/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump async from 3.2.0 to 3.2.4 [#13](https://github.com/eng618/prettier-config/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump minimist from 1.2.5 to 1.2.8 [#8](https://github.com/eng618/prettier-config/pull/8) ([@dependabot[bot]](https://github.com/dependabot[bot]))
 
 #### Authors: 2
 
-- [@dependabot[bot]](https://github.com/dependabot[bot])
-- Eric Garcia ([@eng618](https://github.com/eng618))
+* [@dependabot[bot]](https://github.com/dependabot[bot])
+* Eric Garcia ([@eng618](https://github.com/eng618))
 
 ---
 
@@ -152,26 +151,26 @@
 
 #### 🐛 Bug Fix
 
-- fix: correct .gitignore ([@eng618](https://github.com/eng618))
+* fix: correct .gitignore ([@eng618](https://github.com/eng618))
 
 #### ⚠️ Pushed to `master`
 
-- ci: testing new fossa config ([@eng618](https://github.com/eng618))
-- ci: update fossa config to v3 ([@eng618](https://github.com/eng618))
-- ci: update fossa to v2 ([@eng618](https://github.com/eng618))
-- ci: update fossa ([@eng618](https://github.com/eng618))
-- ci: test fossa fix ([@eng618](https://github.com/eng618))
-- build: update dependencies ([@eng618](https://github.com/eng618))
-- build: migrate to yarn v2 ([@eng618](https://github.com/eng618))
-- ci: update node version ([@eng618](https://github.com/eng618))
-- build: upgrade yarn ([@eng618](https://github.com/eng618))
-- test: setup license scanning ([@eng618](https://github.com/eng618))
-- build: update yarn.lock ([@eng618](https://github.com/eng618))
-- ci: adds check for skipping ci ([@eng618](https://github.com/eng618))
+* ci: testing new fossa config ([@eng618](https://github.com/eng618))
+* ci: update fossa config to v3 ([@eng618](https://github.com/eng618))
+* ci: update fossa to v2 ([@eng618](https://github.com/eng618))
+* ci: update fossa ([@eng618](https://github.com/eng618))
+* ci: test fossa fix ([@eng618](https://github.com/eng618))
+* build: update dependencies ([@eng618](https://github.com/eng618))
+* build: migrate to yarn v2 ([@eng618](https://github.com/eng618))
+* ci: update node version ([@eng618](https://github.com/eng618))
+* build: upgrade yarn ([@eng618](https://github.com/eng618))
+* test: setup license scanning ([@eng618](https://github.com/eng618))
+* build: update yarn.lock ([@eng618](https://github.com/eng618))
+* ci: adds check for skipping ci ([@eng618](https://github.com/eng618))
 
 #### Authors: 1
 
-- Eric Garcia ([@eng618](https://github.com/eng618))
+* Eric Garcia ([@eng618](https://github.com/eng618))
 
 ---
 
@@ -179,32 +178,32 @@
 
 #### 🚀 Enhancement
 
-- feat(twitter): use default message ([@ENG618](https://github.com/ENG618))
+* feat(twitter): use default message ([@ENG618](https://github.com/ENG618))
 
 #### ⚠️ Pushed to `master`
 
-- docs: update ci badge ([@ENG618](https://github.com/ENG618))
-- ci: fix auto tag issue ([@ENG618](https://github.com/ENG618))
-- ci: update to node 15 ([@ENG618](https://github.com/ENG618))
-- ci: circleci to actions ([@ENG618](https://github.com/ENG618))
-- build: update all dependencies ([@ENG618](https://github.com/ENG618))
-- build: update dependencies ([@ENG618](https://github.com/ENG618))
-- ci(fossa): remove since not building correct ([@ENG618](https://github.com/ENG618))
-- ci(fossa): test config file ([@ENG618](https://github.com/ENG618))
-- ci(license check): add foosa to builds and badge to README ([@ENG618](https://github.com/ENG618))
-- build: update all things ([@ENG618](https://github.com/ENG618))
-- build(dependencies): update all to latest ([@ENG618](https://github.com/ENG618))
-- build: ignore files for package ([@ENG618](https://github.com/ENG618))
+* docs: update ci badge ([@ENG618](https://github.com/ENG618))
+* ci: fix auto tag issue ([@ENG618](https://github.com/ENG618))
+* ci: update to node 15 ([@ENG618](https://github.com/ENG618))
+* ci: circleci to actions ([@ENG618](https://github.com/ENG618))
+* build: update all dependencies ([@ENG618](https://github.com/ENG618))
+* build: update dependencies ([@ENG618](https://github.com/ENG618))
+* ci(fossa): remove since not building correct ([@ENG618](https://github.com/ENG618))
+* ci(fossa): test config file ([@ENG618](https://github.com/ENG618))
+* ci(license check): add foosa to builds and badge to README ([@ENG618](https://github.com/ENG618))
+* build: update all things ([@ENG618](https://github.com/ENG618))
+* build(dependencies): update all to latest ([@ENG618](https://github.com/ENG618))
+* build: ignore files for package ([@ENG618](https://github.com/ENG618))
 
 #### 🔩 Dependency Updates
 
-- build(deps): bump ini from 1.3.5 to 1.3.8 [#3](https://github.com/ENG618/prettier-config/pull/3) ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- build(deps): bump node-fetch from 2.6.0 to 2.6.1 [#4](https://github.com/ENG618/prettier-config/pull/4) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump ini from 1.3.5 to 1.3.8 [#3](https://github.com/ENG618/prettier-config/pull/3) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump node-fetch from 2.6.0 to 2.6.1 [#4](https://github.com/ENG618/prettier-config/pull/4) ([@dependabot[bot]](https://github.com/dependabot[bot]))
 
 #### Authors: 2
 
-- [@dependabot[bot]](https://github.com/dependabot[bot])
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* [@dependabot[bot]](https://github.com/dependabot[bot])
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -212,15 +211,15 @@
 
 #### 🚀 Enhancement
 
-- feat(tweet): testing release tweet ([@ENG618](https://github.com/ENG618))
+* feat(tweet): testing release tweet ([@ENG618](https://github.com/ENG618))
 
 #### ⚠️ Pushed to `master`
 
-- build: update plugins and release info ([@ENG618](https://github.com/ENG618))
+* build: update plugins and release info ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -228,11 +227,11 @@
 
 #### 🚀 Enhancement
 
-- feat(tweet): tweet release info on success ([@ENG618](https://github.com/ENG618))
+* feat(tweet): tweet release info on success ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -240,11 +239,11 @@
 
 #### 🐛 Bug Fix
 
-- fix(arrowParens): reverted to default ([@ENG618](https://github.com/ENG618))
+* fix(arrowParens): reverted to default ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -252,11 +251,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- build(dependencies): updated all to latest ([@ENG618](https://github.com/ENG618))
+* build(dependencies): updated all to latest ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -264,11 +263,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- build(dependencies): updated all to latest ([@ENG618](https://github.com/ENG618))
+* build(dependencies): updated all to latest ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -276,11 +275,11 @@
 
 #### 🚀 Enhancement
 
-- feat(config): add more configurations ([@ENG618](https://github.com/ENG618))
+* feat(config): add more configurations ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -288,11 +287,11 @@
 
 #### 🔩 Dependency Updates
 
-- build(deps): bump lodash from 4.17.15 to 4.17.19 [#1](https://github.com/ENG618/prettier-config/pull/1) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump lodash from 4.17.15 to 4.17.19 [#1](https://github.com/ENG618/prettier-config/pull/1) ([@dependabot[bot]](https://github.com/dependabot[bot]))
 
 #### Authors: 1
 
-- [@dependabot[bot]](https://github.com/dependabot[bot])
+* [@dependabot[bot]](https://github.com/dependabot[bot])
 
 ---
 
@@ -300,11 +299,11 @@
 
 #### 🔩 Dependency Updates
 
-- build(deps): bump lodash from 4.17.15 to 4.17.19 [#1](https://github.com/ENG618/prettier-config/pull/1) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+* build(deps): bump lodash from 4.17.15 to 4.17.19 [#1](https://github.com/ENG618/prettier-config/pull/1) ([@dependabot[bot]](https://github.com/dependabot[bot]))
 
 #### Authors: 1
 
-- [@dependabot[bot]](https://github.com/dependabot[bot])
+* [@dependabot[bot]](https://github.com/dependabot[bot])
 
 ---
 
@@ -312,11 +311,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- build(dependencies): updated to latest ([@ENG618](https://github.com/ENG618))
+* build(dependencies): updated to latest ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -324,11 +323,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- build(dependencies): updated to latest ([@ENG618](https://github.com/ENG618))
+* build(dependencies): updated to latest ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -336,11 +335,11 @@
 
 #### 🚀 Enhancement
 
-- feat(README): Add stargazers over time chart ([@ENG618](https://github.com/ENG618))
+* feat(README): Add stargazers over time chart ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -348,11 +347,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- docs(README): add more shields ([@ENG618](https://github.com/ENG618))
+* docs(README): add more shields ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -360,11 +359,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- docs(README): add more shields ([@ENG618](https://github.com/ENG618))
+* docs(README): add more shields ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -372,11 +371,11 @@
 
 #### 🚀 Enhancement
 
-- feat(config): add a couple more options ([@ENG618](https://github.com/ENG618))
+* feat(config): add a couple more options ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -384,11 +383,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- ci(auto): add changelog update to auto ([@ENG618](https://github.com/ENG618))
+* ci(auto): add changelog update to auto ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -396,11 +395,11 @@
 
 #### ⚠️ Pushed to `master`
 
-- ci(auto): add changelog update to auto ([@ENG618](https://github.com/ENG618))
+* ci(auto): add changelog update to auto ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
 
 ---
 
@@ -408,14 +407,14 @@
 
 #### 🚀 Enhancement
 
-- feat(config): add basic prettier config ([@ENG618](https://github.com/ENG618))
+* feat(config): add basic prettier config ([@ENG618](https://github.com/ENG618))
 
 #### ⚠️ Pushed to `master`
 
-- ci(auto): add status ([@ENG618](https://github.com/ENG618))
-- ci(auto): setup circle ci and auto to release. ([@ENG618](https://github.com/ENG618))
-- Initial commit ([@ENG618](https://github.com/ENG618))
+* ci(auto): add status ([@ENG618](https://github.com/ENG618))
+* ci(auto): setup circle ci and auto to release. ([@ENG618](https://github.com/ENG618))
+* Initial commit ([@ENG618](https://github.com/ENG618))
 
 #### Authors: 1
 
-- Eric Garcia ([@ENG618](https://github.com/ENG618))
+* Eric Garcia ([@ENG618](https://github.com/ENG618))
