@@ -5,6 +5,10 @@ permissions:
   packages: write # Allows npm publish
   pull-requests: write # For PRs if needed
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches: [main]
@@ -19,14 +23,16 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
 
       - name: Run FOSSA Scan
-        uses: fossas/fossa-action@main
+        uses: fossas/fossa-action@v1.7.0
         with:
           api-key: ${{ secrets.FOSSA_API_KEY }}
 
       - name: Run FOSSA Test
-        uses: fossas/fossa-action@main
+        uses: fossas/fossa-action@v1.7.0
         with:
           api-key: ${{ secrets.FOSSA_API_KEY }}
           run-tests: true
@@ -36,11 +42,13 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
 
-      - name: Use Node.js 22.x
+      - name: Use Node.js 22
         uses: actions/setup-node@v6
         with:
-          node-version: "22.x"
+          node-version: "22"
           cache: "yarn"
 
       - name: Install dependencies
