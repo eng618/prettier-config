@@ -3,7 +3,7 @@
 <!-- Build and release -->
 
 [![CI](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git.svg?type=shield)](https://app.fossa.com/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git?ref=badge_shield&issueType=license)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 ![NPM](https://img.shields.io/npm/l/@eng618/prettier-config)
 
