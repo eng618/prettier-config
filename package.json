@@ -17,8 +17,8 @@
     "release:ci": "release-it --ci"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^10.0.1",
-    "release-it": "^19.0.5"
+    "@release-it/conventional-changelog": "^10.0.2",
+    "release-it": "^19.0.6"
   },
   "peerDependencies": {
     "prettier": "^2.0.0 || ^3.0.0"
