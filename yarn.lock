@@ -423,8 +423,8 @@ __metadata:
   linkType: hard
 
 "@release-it/conventional-changelog@npm:^10.0.2":
-  version: 10.0.2
-  resolution: "@release-it/conventional-changelog@npm:10.0.2"
+  version: 10.0.4
+  resolution: "@release-it/conventional-changelog@npm:10.0.4"
   dependencies:
     "@conventional-changelog/git-client": "npm:^2.5.1"
     concat-stream: "npm:^2.0.0"
@@ -435,7 +435,7 @@ __metadata:
     semver: "npm:^7.7.3"
   peerDependencies:
     release-it: ^18.0.0 || ^19.0.0
-  checksum: 10/3337224f1f1fe65ba384f4d350996cfeb2241874b870de943ec785404c11dfa92283531767d15923f087820f30c585f8b2b0fba92e5eac7e892a87261a3f378d
+  checksum: 10/b3f55ab81f10041be0a8c367d1898c4d04fe8f05f7f6e3b1636805a3df58f0dbb6560d8725bfbd16442d7cd860856d227ba5e950dbee4ee3a9c8e1168a475394
   languageName: node
   linkType: hard
 
