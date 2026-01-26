@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.0...prettier-config-v2.5.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* remove unused release job from CI workflow ([9516a04](https://github.com/eng618/prettier-config/commit/9516a043b7f5fcd1747f540b6ff3ed7fdfaa3449))
+
 ## [2.5.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.4.12...prettier-config-v2.5.0) (2026-01-26)
 
 
