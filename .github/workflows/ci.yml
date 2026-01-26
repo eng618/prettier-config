@@ -80,6 +80,11 @@ jobs:
         run: yarn install --immutable
 
       - name: Run release-please
+        id: release
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to npm
+        if: steps.release.outputs.release_created
+        run: npm publish --provenance
