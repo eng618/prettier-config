@@ -14,8 +14,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  release:
-    types: [published]
   workflow_dispatch:
 
 jobs:
@@ -85,27 +83,3 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-  publish:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'release' && github.event.action == 'published'
-    environment:
-      name: npm-publish
-    permissions:
-      id-token: write # For OIDC trusted publishing
-      contents: read
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '24'
-          registry-url: 'https://registry.npmjs.org/'
-
-      - name: Install dependencies
-        run: yarn install --immutable
-
-      - name: Publish to npm
-        run: npm publish --provenance
