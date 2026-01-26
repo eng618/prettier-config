@@ -1,5 +1,50 @@
 # Changelog
 
+## [2.5.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.4.12...prettier-config-v2.5.0) (2026-01-26)
+
+
+### Features
+
+* add TypeScript declaration for @eng618/prettier-config ([12749a9](https://github.com/eng618/prettier-config/commit/12749a916b55036e1c3f61d15104913cb935cb87))
+* add version bump scripts for patch, minor, and major releases ([dcb2815](https://github.com/eng618/prettier-config/commit/dcb2815274f2dd81db7fbb61d1566c42094d8e8e))
+* also tag the commit ([645ee76](https://github.com/eng618/prettier-config/commit/645ee76ae666f2fd01087777bf0c4fa0e700360c))
+* auto -&gt; release-it ([7f14276](https://github.com/eng618/prettier-config/commit/7f14276cf27055ed03c344aee726af2248ced0f0))
+* **config:** add a couple more options ([2958022](https://github.com/eng618/prettier-config/commit/2958022572731df77ef13c602a7cde979244b7a3))
+* **config:** add basic prettier config ([74b59e3](https://github.com/eng618/prettier-config/commit/74b59e36ce7a6de441881bec99b126f773287da2))
+* **config:** add more configurations ([57f365b](https://github.com/eng618/prettier-config/commit/57f365b0c0dda5a0c0f33f96e88b8d4beace094d))
+* **deps:** add peerDependencies ([3ccbc35](https://github.com/eng618/prettier-config/commit/3ccbc3591affa51f94110d0daabcccab7bb994b0))
+* force release ([97fa0c7](https://github.com/eng618/prettier-config/commit/97fa0c75d9246111d04e40b5c78eba1a09baf1c0))
+* force release ([b5897f4](https://github.com/eng618/prettier-config/commit/b5897f4444de53b998b017b6d57a7b11ff39c85e))
+* force release ([2eabce5](https://github.com/eng618/prettier-config/commit/2eabce55d33a8aed9dc8226abc6d999a8c05001f))
+* fully updated builds ([aaa34c8](https://github.com/eng618/prettier-config/commit/aaa34c8f1ae4f99a59e234f64c6672640040356c))
+* migrate Prettier config to ESM and remove JSON config ([f1f2427](https://github.com/eng618/prettier-config/commit/f1f2427a11f65081e8f018fce7017bcc76a7f863))
+* npm pkg fix ([fd220f8](https://github.com/eng618/prettier-config/commit/fd220f8c485e248ee29a075b353c0218d2cf9606))
+* **README:** Add stargazers over time chart ([79bf3dd](https://github.com/eng618/prettier-config/commit/79bf3dd875f2044eae9c6a1525bd98e9fe115466))
+* **release:** update message ([4243357](https://github.com/eng618/prettier-config/commit/4243357508518135673ef9d2bd5b5ca47a3f2d9b))
+* **tweet:** testing release tweet ([6adf9ee](https://github.com/eng618/prettier-config/commit/6adf9ee40e8ed34a35a8ee0de62e614ff0d3f8d3))
+* **tweet:** tweet release info on success ([3a80548](https://github.com/eng618/prettier-config/commit/3a80548d8f1ec49d1fd6262b66bc7c344cf16921))
+* **twitter:** use default message ([5ccd317](https://github.com/eng618/prettier-config/commit/5ccd317ae56343d12f7340e8f64545955f970339))
+* update configs ([e331908](https://github.com/eng618/prettier-config/commit/e3319082e3cc53dd6b2df020f5d2ddde76b5dbe1))
+* various improvements ([86942db](https://github.com/eng618/prettier-config/commit/86942db5562ccf2cc5f5ce6f215ec073c40e5733))
+* **yaml:** add overrides for yaml files ([4cca931](https://github.com/eng618/prettier-config/commit/4cca93160de926002d075971e5ff3877b8dc25b6))
+
+
+### Bug Fixes
+
+* add missing package ([333a7b4](https://github.com/eng618/prettier-config/commit/333a7b4b33c7b61400c8bd71f9a8d4d2c6064e71))
+* **arrowParens:** reverted to default ([ecc22bb](https://github.com/eng618/prettier-config/commit/ecc22bbb0378a95573638741cbe76126f338cf6c))
+* ci remove ssh ([a2e86d8](https://github.com/eng618/prettier-config/commit/a2e86d83ae63b43238b7f4deb43af29d35587f7a))
+* correct .gitignore ([72c4b80](https://github.com/eng618/prettier-config/commit/72c4b8098121b457c3209ce685cb1345d3cc982e))
+* correct boolean value ([e20fb3a](https://github.com/eng618/prettier-config/commit/e20fb3a2c482adc17ed01e70d45154416029f1bd))
+* correct package version ([dad2610](https://github.com/eng618/prettier-config/commit/dad2610a87198d9b205c515e6f4559d433c99179))
+* correct version ([fd47a66](https://github.com/eng618/prettier-config/commit/fd47a66758b9081a6492a420d9389ed057aafb72))
+* prefix repository URL with git+ protocol ([3675464](https://github.com/eng618/prettier-config/commit/3675464bfdef4243af26ecdce9c777e782d372e9))
+* **prettier:** update hbs file parser configuration ([0683e37](https://github.com/eng618/prettier-config/commit/0683e37363d87cf5db6d04b3293cfa707fdc520e))
+* security fix for @conventional-changelog/git-client ([a97136c](https://github.com/eng618/prettier-config/commit/a97136c2416336857f60bd21f7e90d11d370040a))
+* update package version ([89920dd](https://github.com/eng618/prettier-config/commit/89920dd3c221e6eaa1723563382d71c29dc40ad0))
+* update package version ([e2cdad7](https://github.com/eng618/prettier-config/commit/e2cdad7352cc4ef24998cc5e9c3303f78c386dd8))
+* version ([b0f7f70](https://github.com/eng618/prettier-config/commit/b0f7f70ffe3349e85c3d562fa2d6ee7bb82b4a0b))
+
 ## [2.4.12](///compare/v2.4.10...v2.4.12) (2025-12-01)
 
 ### Bug Fixes
