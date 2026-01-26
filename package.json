@@ -49,6 +49,9 @@
     },
     "github": {
       "release": true
+    },
+    "npm": {
+      "publishArgs": ["--provenance"]
     }
   },
   "packageManager": "yarn@4.10.3"
