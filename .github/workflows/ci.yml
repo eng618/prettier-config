@@ -14,6 +14,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  release:
+    types: [published]
   workflow_dispatch:
 
 jobs:
@@ -45,10 +47,10 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Use Node.js 22
+      - name: Use Node.js 24
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: '24'
           cache: 'yarn'
 
       - name: Install dependencies
@@ -62,30 +64,47 @@ jobs:
       name: npm-publish
     permissions:
       id-token: write # For OIDC trusted publishing
-      contents: write # For changelog/tag pushes
+      contents: write # For tags and releases
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: '24'
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Install dependencies
         run: yarn install --immutable
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "Eric N. Garcia (actions)"
-          git config --global user.email "eng618@garciaericn.com"
-          git remote set-url origin https://github.com/eng618/prettier-config.git
+      - name: Run release-please
+        uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run release-it
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn release:ci
+  publish:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'published'
+    environment:
+      name: npm-publish
+    permissions:
+      id-token: write # For OIDC trusted publishing
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org/'
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Publish to npm
+        run: npm publish --provenance
