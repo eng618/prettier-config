@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.1...prettier-config-v2.5.2) (2026-01-26)
+
+
+### Bug Fixes
+
+* add npm publish step to release job in CI workflow ([1f0c8dc](https://github.com/eng618/prettier-config/commit/1f0c8dc0f1a1e2e181e777bfbde634ade6bc4d47))
+
 ## [2.5.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.0...prettier-config-v2.5.1) (2026-01-26)
 
 
