@@ -1,6 +1,7 @@
 // ESM sharable Prettier config
 /** @type {import('prettier').Config} */
 const config = {
+  plugins: ["prettier-plugin-organize-imports"],
   arrowParens: "always",
   bracketSpacing: true,
   endOfLine: "lf",

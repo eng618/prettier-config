@@ -16,7 +16,8 @@
     "release": "echo 'Releases are handled by release-please'"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0 || ^3.0.0"
+    "prettier": "^2.0.0 || ^3.0.0",
+    "prettier-plugin-organize-imports": "^4.0.0"
   },
   "resolutions": {
     "@conventional-changelog/git-client": "^2.0.0",
