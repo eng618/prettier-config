@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.3](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.2...prettier-config-v2.5.3) (2026-02-03)
+
+
+### Bug Fixes
+
+* add prettier-plugin-organize-imports to config and dependencies ([c25a897](https://github.com/eng618/prettier-config/commit/c25a897de47b840ab90cfaa60a3350adc44b3cf0))
+
 ## [2.5.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.1...prettier-config-v2.5.2) (2026-01-26)
 
 
