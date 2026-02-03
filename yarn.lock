@@ -10,5 +10,6 @@ __metadata:
   resolution: "@eng618/prettier-config@workspace:."
   peerDependencies:
     prettier: ^2.0.0 || ^3.0.0
+    prettier-plugin-organize-imports: ^4.0.0
   languageName: unknown
   linkType: soft
