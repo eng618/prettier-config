@@ -24,12 +24,12 @@
   },
   "dependencies": {
     "prettier-plugin-jsdoc": "^1.8.0",
-    "prettier-plugin-organize-imports": "^4.1.1",
-    "prettier-plugin-packagejson": "^2.5.8"
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-packagejson": "^2.5.22"
   },
   "devDependencies": {
-    "prettier": "^3.5.0",
-    "typescript": "^5.0.0"
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0",
