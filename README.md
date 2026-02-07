@@ -1,110 +1,101 @@
-# `@ENG618/prettier-config`
+# `@eng618/prettier-config`
 
-<!-- Build and release -->
+> A highly opinionated, yet sensible [Prettier](https://prettier.io) configuration with built-in support for imports organization, package.json sorting, and JSDoc formatting.
 
 [![CI](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ENG618/prettier-config/actions/workflows/ci.yml)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B20755%2Fgit%40github.com%3AENG618%2Fprettier-config.git?ref=badge_shield&issueType=license)
+[![npm version](https://img.shields.io/npm/v/@eng618/prettier-config)](https://www.npmjs.com/package/@eng618/prettier-config)
+[![license](https://img.shields.io/npm/l/@eng618/prettier-config)](https://github.com/eng618/prettier-config/blob/main/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
-![NPM](https://img.shields.io/npm/l/@eng618/prettier-config)
 
-<!-- NPM info -->
+## ✨ Features
 
-![npm (scoped)](https://img.shields.io/npm/v/@eng618/prettier-config)
-[![npm](https://img.shields.io/npm/dt/@eng618/prettier-config)](https://www.npmjs.com/package/@eng618/prettier-config)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@eng618/prettier-config)
+- **Built-in Plugins**:
+  - [`prettier-plugin-organize-imports`](https://github.com/simonhaenisch/prettier-plugin-organize-imports): Automatically sorts and removes unused imports.
+  - [`prettier-plugin-packagejson`](https://github.com/matzkoh/prettier-plugin-packagejson): Keeps your `package.json` clean and consistently sorted.
+  - [`prettier-plugin-jsdoc`](https://github.com/hosseinmd/prettier-plugin-jsdoc): Formats JSDoc comments for better readability.
+- **Sensible Defaults**:
+  - `printWidth: 120` for modern screens.
+  - `singleQuote: true` for clean JavaScript/TypeScript.
+  - `trailingComma: 'all'` for cleaner git diffs.
+  - Standardized indentation (2 spaces) and line endings (LF).
+- **TypeScript Ready**: Includes full type definitions for IntelliSense.
+- **Hybrid Support**: Works with both ESM and CommonJS.
 
-<!-- GitHub -->
-
-![GitHub Release Date](https://img.shields.io/github/release-date/eng618/prettier-config)
-![GitHub stars](https://img.shields.io/github/stars/eng618/prettier-config?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/eng618/prettier-config?style=social)
-![GitHub forks](https://img.shields.io/github/forks/eng618/prettier-config?style=social)
-![GitHub issues](https://img.shields.io/github/issues/eng618/prettier-config)
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-<!-- Social -->
-
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fgarciaericn)](https://twitter.com/intent/tweet?screen_name=garciaericn&ref_src=twsrc%5Etfw)
-[![Twitter Follow](https://img.shields.io/twitter/follow/garciaericn?style=social)](https://twitter.com/garciaericn?ref_src=twsrc%5Etfw)
-
-</div>
-
-A baseline [Prettier](https://prettier.io) config, with sensible defaults. You can find it published here:
-
-- [npmjs.com](https://www.npmjs.com/package/@eng618/prettier-config)
-- [yarnpkg.com](https://yarnpkg.com/package/@eng618/prettier-config)
-
-## Usage
-
-**Install**:
+## 🚀 Installation
 
 ```bash
-yarn add --dev @eng618/prettier-config
+# Using npm
+npm install --save-dev @eng618/prettier-config prettier
+
+# Using yarn
+yarn add --dev @eng618/prettier-config prettier
+
+# Using pnpm
+pnpm add --save-dev @eng618/prettier-config prettier
 ```
 
-or
+> [!TIP]
+> All plugins (`organize-imports`, `packagejson`, `jsdoc`) are included as dependencies, so you don't need to install them manually!
 
-```bash
-npm install --save-dev @eng618/prettier-config 
-```
+## 🛠 Usage
 
-**Edit `package.json`**:
+### Simple Setup (package.json)
 
-```jsonc
+The easiest way to use this config is by referencing it in your `package.json`:
+
+```json
 {
-  // ...
+  "name": "my-cool-project",
   "prettier": "@eng618/prettier-config"
 }
 ```
 
-**Or use in a Prettier config file (ESM):**
+### Advanced Setup (prettier.config.js)
 
-```js
-// prettier.config.js or .prettierrc.js
-import config from '@eng618/prettier-config';
-export default config;
+If you need to override or extend the config, create a `prettier.config.js` (or `.prettierrc.js`) file:
+
+#### ES Modules (Recommended)
+
+```javascript
+import eng618Config from '@eng618/prettier-config';
+
+/** @type {import('prettier').Config} */
+export default {
+  ...eng618Config,
+  // Your overrides here
+  semi: false,
+};
 ```
 
-**CommonJS usage:**
+#### CommonJS
 
-```js
-// prettier.config.js or .prettierrc.js
-const config = require('@eng618/prettier-config');
-module.exports = config;
+```javascript
+const eng618Config = require('@eng618/prettier-config');
+
+/** @type {import('prettier').Config} */
+module.exports = {
+  ...eng618Config,
+  // Your overrides here
+  semi: false,
+};
 ```
 
-**TypeScript projects:**
+## 📝 Scripts
 
-```js
-// prettier.config.js or .prettierrc.js
-import config from '@eng618/prettier-config';
-export default config;
+Add these to your `package.json` for easy formatting:
+
+```json
+"scripts": {
+  "format": "prettier --write .",
+  "lint:format": "prettier --check ."
+}
 ```
 
-The package includes TypeScript declarations, so you'll get full type safety and IntelliSense support in TypeScript-aware editors.
+## 📄 License
 
-## Configuration Details
+[MIT](LICENSE) © [Eric N. Garcia](https://garciaericn.com)
 
-This configuration includes the following formatting rules:
-
-- **Print Width**: 120 characters (wider than default for modern screens)
-- **Single Quotes**: Uses single quotes instead of double quotes
-- **Trailing Commas**: Adds trailing commas in objects, arrays, and function parameters
-- **Arrow Function Parens**: Always includes parentheses around arrow function parameters
-- **Tabs vs Spaces**: Uses 2 spaces for indentation
-- **Line Endings**: Uses LF (Unix-style) line endings
-- **YAML Files**: Special override to use double quotes for YAML files
-
-> **Note**: This package migrated to ESM format in v2.3.0. If you're upgrading from an earlier version and encounter import errors, ensure your project supports ES modules or use the CommonJS example above.
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/ENG618/prettier-config.svg)](https://starchart.cc/ENG618/prettier-config)
+---
 
 ## Contributors ✨
 
@@ -123,5 +114,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

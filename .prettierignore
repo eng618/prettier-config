@@ -1,1 +1,10 @@
 CHANGELOG.md
+node_modules/
+dist/
+build/
+coverage/
+.yarn/
+.pnp.*
+.cache/
+.DS_Store
+*.log

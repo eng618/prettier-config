@@ -1,35 +1,38 @@
 // ESM sharable Prettier config
 /** @type {import('prettier').Config} */
 const config = {
-  plugins: ["prettier-plugin-organize-imports"],
-  arrowParens: "always",
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson', 'prettier-plugin-jsdoc'],
+  arrowParens: 'always',
   bracketSpacing: true,
-  endOfLine: "lf",
+  endOfLine: 'lf',
   printWidth: 120,
   singleQuote: true,
   tabWidth: 2,
-  trailingComma: "all",
+  trailingComma: 'all',
   useTabs: false,
   overrides: [
     {
-      files: "*.{yml,yaml}",
+      files: ['*.yml', '*.yaml'],
       options: {
         singleQuote: false,
       },
     },
     {
-      files: "*.hbs",
+      files: '*.hbs',
       options: {
-        parser: "html",
+        parser: 'html',
       },
     },
     {
-      files: "CHANGELOG.md",
+      files: 'CHANGELOG.md',
       options: {
         requirePragma: true,
       },
     },
   ],
+  // Plugin specific options
+  jsdocPreferCodeFences: true,
+  tsdoc: true,
 };
 
 export default config;

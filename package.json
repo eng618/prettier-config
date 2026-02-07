@@ -2,33 +2,50 @@
   "name": "@eng618/prettier-config",
   "version": "2.5.3",
   "description": "My personal Prettier config",
-  "exports": {
-    ".": "./index.js"
-  },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eng618/prettier-config.git"
   },
-  "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
+  "author": "Eric N. Garcia <eng618@garciaericn.com>",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
     "release": "echo 'Releases are handled by release-please'"
   },
-  "peerDependencies": {
-    "prettier": "^2.0.0 || ^3.0.0",
-    "prettier-plugin-organize-imports": "^4.0.0"
-  },
+  "prettier": "./index.js",
   "resolutions": {
     "@conventional-changelog/git-client": "^2.0.0",
     "semver": "^7.5.4"
   },
-  "hooks": {
-    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  "dependencies": {
+    "prettier-plugin-jsdoc": "^1.8.0",
+    "prettier-plugin-organize-imports": "^4.1.1",
+    "prettier-plugin-packagejson": "^2.5.8"
   },
+  "devDependencies": {
+    "prettier": "^3.5.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "packageManager": "yarn@4.12.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "packageManager": "yarn@4.12.0"
+  "hooks": {
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  }
 }
