@@ -23,6 +23,12 @@ const config = {
         parser: "html",
       },
     },
+    {
+      files: "CHANGELOG.md",
+      options: {
+        requirePragma: true,
+      },
+    },
   ],
 };
 
