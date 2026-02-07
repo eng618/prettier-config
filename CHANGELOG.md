@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.3...prettier-config-v2.6.0) (2026-02-07)
+
+
+### Features
+
+* Add JSDoc and package.json Prettier plugins, update configuration, and refresh documentation. ([9944b13](https://github.com/eng618/prettier-config/commit/9944b133edc1d0c9e4404b6228b6fe4560718f29))
+
 ## [2.5.3](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.2...prettier-config-v2.5.3) (2026-02-03)
 
 
