@@ -32,6 +32,7 @@ const config = {
   ],
   // Plugin specific options
   jsdocPreferCodeFences: true,
+  jsdocLineWrappingStyle: 'balance',
   tsdoc: true,
 };
 
