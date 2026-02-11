@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.6.0...prettier-config-v2.7.0) (2026-02-11)
+
+
+### Features
+
+* Add `jsdocLineWrappingStyle` option set to `balance`. ([f9da3cc](https://github.com/eng618/prettier-config/commit/f9da3cc2ba310f0fef691cb59a3208c7c49eaf05))
+
 ## [2.6.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.5.3...prettier-config-v2.6.0) (2026-02-07)
 
 
