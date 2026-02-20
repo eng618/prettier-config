@@ -32,7 +32,8 @@ const config = {
   ],
   // Plugin specific options
   jsdocPreferCodeFences: true,
-  jsdocLineWrappingStyle: 'balance',
+  // TODO: update to balance when when bug fix is published: https://github.com/hosseinmd/prettier-plugin-jsdoc/pull/255
+  jsdocLineWrappingStyle: 'greedy',
   tsdoc: true,
 };
 
