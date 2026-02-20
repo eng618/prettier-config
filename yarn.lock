@@ -12,7 +12,7 @@ __metadata:
     prettier: "npm:^3.8.1"
     prettier-plugin-jsdoc: "npm:^1.3.3"
     prettier-plugin-organize-imports: "npm:^4.3.0"
-    prettier-plugin-packagejson: "npm:^2.5.22"
+    prettier-plugin-packagejson: "npm:^3.0.0"
     typescript: "npm:^5.9.3"
   peerDependencies:
     prettier: ">=3.0.0"
@@ -459,17 +459,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:^2.5.22":
-  version: 2.5.22
-  resolution: "prettier-plugin-packagejson@npm:2.5.22"
+"prettier-plugin-packagejson@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "prettier-plugin-packagejson@npm:3.0.0"
   dependencies:
     sort-package-json: "npm:3.6.0"
   peerDependencies:
-    prettier: ">= 1.16.0"
+    prettier: ^3
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 10/874ba785d6c3c32abca23470cebfd7b80de7b546c0b3752a83cf5aea7a8030885f0c3a91ef40c52373c1be144b46983d1e5bc6d492096d79604441eae6ed1be0
+  checksum: 10/00378f77c50d411d9e78d8de91f9f7ced37253730f0a66371fe9d549de53927c8828f2921c068cf22a763f843224a15e924a985a482fa3d83ab60e23526e0ee6
   languageName: node
   linkType: hard
 
