@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.0...prettier-config-v2.7.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* **deps:** downgrade prettier-plugin-jsdoc to v1.3.3 ([ec4c123](https://github.com/eng618/prettier-config/commit/ec4c12399d52b9a60fc0cd43f6cb4f0535fa0911))
+
 ## [2.7.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.6.0...prettier-config-v2.7.0) (2026-02-11)
 
 
