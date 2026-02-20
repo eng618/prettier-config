@@ -5,18 +5,18 @@
     "": {
       "name": "@eng618/prettier-config",
       "dependencies": {
+        "prettier-plugin-curly": "^0.4.1",
         "prettier-plugin-jsdoc": "^1.8.0",
+        "prettier-plugin-multiline-arrays": "^4.1.4",
         "prettier-plugin-organize-imports": "^4.3.0",
         "prettier-plugin-packagejson": "^3.0.0",
-      },
-      "devDependencies": {
-        "prettier": "^3.8.1",
-        "prettier-plugin-curly": "^0.4.1",
-        "prettier-plugin-multiline-arrays": "^4.1.4",
         "prettier-plugin-prisma": "^5.0.0",
         "prettier-plugin-sh": "^0.18.0",
         "prettier-plugin-sql": "^0.19.2",
         "prettier-plugin-tailwindcss": "^0.7.2",
+      },
+      "devDependencies": {
+        "prettier": "^3.8.1",
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
