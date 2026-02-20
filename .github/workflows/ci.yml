@@ -45,14 +45,16 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Use Node.js 24
-        uses: actions/setup-node@v6
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: "24"
-          cache: "yarn"
+          bun-version: latest
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: bun install --frozen-lockfile
+
+      - name: Lint
+        run: bun run lint
 
   release:
     runs-on: ubuntu-latest
@@ -68,6 +70,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
@@ -75,7 +82,7 @@ jobs:
           registry-url: "https://registry.npmjs.org/"
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: bun install --frozen-lockfile
 
       - name: Run release-please
         id: release
