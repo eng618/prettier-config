@@ -1,7 +1,16 @@
 // ESM sharable Prettier config
 /** @type {import('prettier').Config} */
 const config = {
-  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
+  plugins: [
+    'prettier-plugin-organize-imports',
+    'prettier-plugin-packagejson',
+    'prettier-plugin-sh',
+    'prettier-plugin-sql',
+    'prettier-plugin-curly',
+    'prettier-plugin-prisma',
+    'prettier-plugin-multiline-arrays',
+    'prettier-plugin-tailwindcss',
+  ],
   arrowParens: 'always',
   bracketSpacing: true,
   endOfLine: 'lf',

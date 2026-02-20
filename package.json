@@ -29,6 +29,12 @@
   },
   "devDependencies": {
     "prettier": "^3.8.1",
+    "prettier-plugin-curly": "^0.4.1",
+    "prettier-plugin-multiline-arrays": "^4.1.4",
+    "prettier-plugin-prisma": "^5.0.0",
+    "prettier-plugin-sh": "^0.18.0",
+    "prettier-plugin-sql": "^0.19.2",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
