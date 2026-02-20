@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.1...prettier-config-v2.7.2) (2026-02-20)
+
+
+### Bug Fixes
+
+* Temporarily disable `prettier-plugin-jsdoc` and its related configurations due to an infinite loop bug. ([84f1fc5](https://github.com/eng618/prettier-config/commit/84f1fc51c7df8edda9111c699da2e8511d1508b4))
+
 ## [2.7.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.0...prettier-config-v2.7.1) (2026-02-20)
 
 
