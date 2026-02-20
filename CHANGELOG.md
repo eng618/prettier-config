@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.0...prettier-config-v2.8.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* include plugins as direct dependencies ([672c93a](https://github.com/eng618/prettier-config/commit/672c93a805192d91d472af982f48f9de130dd25a))
+
 ## [2.8.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.2...prettier-config-v2.8.0) (2026-02-20)
 
 
