@@ -1,7 +1,7 @@
 // ESM sharable Prettier config
 /** @type {import('prettier').Config} */
 const config = {
-  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson', 'prettier-plugin-jsdoc'],
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
   arrowParens: 'always',
   bracketSpacing: true,
   endOfLine: 'lf',
@@ -31,10 +31,11 @@ const config = {
     },
   ],
   // Plugin specific options
-  jsdocPreferCodeFences: true,
+  // Temporarily disabled due to infinite loop bug and greedy formatting
   // TODO: update to balance when when bug fix is published: https://github.com/hosseinmd/prettier-plugin-jsdoc/pull/255
-  jsdocLineWrappingStyle: 'greedy',
-  tsdoc: true,
+  // jsdocPreferCodeFences: true,
+  // jsdocLineWrappingStyle: 'greedy',
+  // tsdoc: true,
 };
 
 export default config;
