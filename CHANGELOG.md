@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.8.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.2...prettier-config-v2.8.0) (2026-02-20)
+
+
+### Features
+
+* Add new Prettier plugins for shell, SQL, curly braces, Prisma, multiline arrays, and Tailwind CSS. ([50a4281](https://github.com/eng618/prettier-config/commit/50a4281af60e1706c59ec22fc2e0f242b83326cb))
+* Migrate package manager from Yarn to Bun. ([3fb2d0c](https://github.com/eng618/prettier-config/commit/3fb2d0c10ca15dc9d8963b32fde689b06b565b9e))
+
 ## [2.7.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.7.1...prettier-config-v2.7.2) (2026-02-20)
 
 
