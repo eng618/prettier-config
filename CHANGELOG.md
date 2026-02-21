@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.1...prettier-config-v2.8.2) (2026-02-21)
+
+
+### Bug Fixes
+
+* Remove `prettier-plugin-jsdoc` from dependencies and configuration, and update `.prettierignore` entries. ([3a62026](https://github.com/eng618/prettier-config/commit/3a620264725def73e98919bb8eeb5667b3382839))
+
 ## [2.8.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.0...prettier-config-v2.8.1) (2026-02-20)
 
 
