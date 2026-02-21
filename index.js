@@ -39,12 +39,6 @@ const config = {
       },
     },
   ],
-  // Plugin specific options
-  // Temporarily disabled due to infinite loop bug and greedy formatting
-  // TODO: update to balance when when bug fix is published: https://github.com/hosseinmd/prettier-plugin-jsdoc/pull/255
-  // jsdocPreferCodeFences: true,
-  // jsdocLineWrappingStyle: 'greedy',
-  // tsdoc: true,
 };
 
 export default config;

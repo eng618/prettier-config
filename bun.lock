@@ -6,7 +6,6 @@
       "name": "@eng618/prettier-config",
       "dependencies": {
         "prettier-plugin-curly": "^0.4.1",
-        "prettier-plugin-jsdoc": "^1.8.0",
         "prettier-plugin-multiline-arrays": "^4.1.4",
         "prettier-plugin-organize-imports": "^4.3.0",
         "prettier-plugin-packagejson": "^3.0.0",
