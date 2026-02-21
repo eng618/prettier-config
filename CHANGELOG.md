@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.2...prettier-config-v2.9.0) (2026-02-21)
+
+
+### Features
+
+* Add JSDoc plugin and update plugin paths to use `import.meta.resolve`. ([fd7bb11](https://github.com/eng618/prettier-config/commit/fd7bb112e1f505a2ecf9b7142900dcf418f9d9c0))
+
 ## [2.8.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.1...prettier-config-v2.8.2) (2026-02-21)
 
 
