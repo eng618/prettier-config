@@ -2,14 +2,15 @@
 /** @type {import('prettier').Config} */
 const config = {
   plugins: [
-    'prettier-plugin-organize-imports',
-    'prettier-plugin-packagejson',
-    'prettier-plugin-sh',
-    'prettier-plugin-sql',
-    'prettier-plugin-curly',
-    'prettier-plugin-prisma',
-    'prettier-plugin-multiline-arrays',
-    'prettier-plugin-tailwindcss',
+    import.meta.resolve('prettier-plugin-organize-imports'),
+    import.meta.resolve('prettier-plugin-packagejson'),
+    import.meta.resolve('@homer0/prettier-plugin-jsdoc'),
+    import.meta.resolve('prettier-plugin-sh'),
+    import.meta.resolve('prettier-plugin-sql'),
+    import.meta.resolve('prettier-plugin-curly'),
+    import.meta.resolve('prettier-plugin-prisma'),
+    import.meta.resolve('prettier-plugin-multiline-arrays'),
+    import.meta.resolve('prettier-plugin-tailwindcss'),
   ],
   arrowParens: 'always',
   bracketSpacing: true,

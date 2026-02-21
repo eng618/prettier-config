@@ -5,6 +5,7 @@
     "": {
       "name": "@eng618/prettier-config",
       "dependencies": {
+        "@homer0/prettier-plugin-jsdoc": "^11.0.2",
         "prettier-plugin-curly": "^0.4.1",
         "prettier-plugin-multiline-arrays": "^4.1.4",
         "prettier-plugin-organize-imports": "^4.3.0",
@@ -39,6 +40,8 @@
     "@augment-vir/core": ["@augment-vir/core@31.62.0", "", { "dependencies": { "@date-vir/duration": "^8.1.0", "browser-or-node": "^3.0.0", "diff": "^8.0.3", "json5": "^2.2.3", "type-fest": "^5.4.4" } }, "sha512-Gn04jj4dv3RaPXWa+uCLENuBHc1BLCA2SvfB+9QoxEdAuppEuqEX1VZIEaN/ceAgaZMDSEHHwQ8/cA6F4ZvLow=="],
 
     "@date-vir/duration": ["@date-vir/duration@8.1.1", "", { "dependencies": { "@augment-vir/assert": "^31.59.3", "@types/luxon": "^3.7.1", "luxon": "^3.7.2", "type-fest": "^5.4.4" } }, "sha512-Yyy843MnUPsyGaDt07b4/Y8Sbh9Vcka1XwxVI5eWV7x8kigF+NtH5onsLlHELfF/rsjchVOnWRlBCkCpjltoJA=="],
+
+    "@homer0/prettier-plugin-jsdoc": ["@homer0/prettier-plugin-jsdoc@11.0.2", "", { "dependencies": { "comment-parser": "^1.4.5", "ramda": "0.32.0" }, "peerDependencies": { "prettier": "^3.5.3" } }, "sha512-+BzWB8z61dExvX1Z5EjBHeregU8M51MyTJvxOQdalO0LhGAXoBesSZqU1HWe1DnxAZvY69ItwXfTtCyj2f+4gQ=="],
 
     "@prisma/prisma-schema-wasm": ["@prisma/prisma-schema-wasm@4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584", "", {}, "sha512-JFdsnSgBPN8reDTLOI9Vh/6ccCb2aD1LbY/LWQnkcIgNo6IdpzvuM+qRVbBuA6IZP2SdqQI8Lu6RL2P8EFBQUA=="],
 
@@ -185,6 +188,8 @@
     "proxy-vir": ["proxy-vir@2.0.2", "", { "dependencies": { "@augment-vir/assert": "^31.59.3", "@augment-vir/common": "^31.59.3" } }, "sha512-YgV6c/9aJ7RyNZDTPqLQ6SdqBocWHGUa5rU3hyEsHj2kg4/b0y0EMWp3dNNUEJQrw6BoywonNINEVyFvj97YXQ=="],
 
     "railroad-diagrams": ["railroad-diagrams@1.0.0", "", {}, "sha512-cz93DjNeLY0idrCNOH6PviZGRN9GJhsdm9hpn1YCS879fj4W+x5IFJhhkRZcwVgMmFF7R82UA/7Oh+R8lLZg6A=="],
+
+    "ramda": ["ramda@0.32.0", "", {}, "sha512-GQWAHhxhxWBWA8oIBr1XahFVjQ9Fic6MK9ikijfd4TZHfE2+urfk+irVlR5VOn48uwMgM+loRRBJd6Yjsbc0zQ=="],
 
     "randexp": ["randexp@0.4.6", "", { "dependencies": { "discontinuous-range": "1.0.0", "ret": "~0.1.10" } }, "sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ=="],
 
