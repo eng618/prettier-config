@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.9.0...prettier-config-v2.9.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* disable @homer0/prettier-plugin-jsdoc due to compatibility issues ([ceb10db](https://github.com/eng618/prettier-config/commit/ceb10db40d83cb2b92a262cfdeff0cfcc2a9667e))
+
 ## [2.9.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.8.2...prettier-config-v2.9.0) (2026-02-21)
 
 
