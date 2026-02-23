@@ -4,7 +4,9 @@ const config = {
   plugins: [
     import.meta.resolve('prettier-plugin-organize-imports'),
     import.meta.resolve('prettier-plugin-packagejson'),
-    import.meta.resolve('@homer0/prettier-plugin-jsdoc'),
+    // @homer0/prettier-plugin-jsdoc is disabled: v11.0.2 uses createRequire() on ESM provider
+    // files (app.js loadProviders), which Node rejects. Re-enable once a fix is published.
+    // Tracking: https://github.com/homer0/prettier-plugin-jsdoc/issues
     import.meta.resolve('prettier-plugin-sh'),
     import.meta.resolve('prettier-plugin-sql'),
     import.meta.resolve('prettier-plugin-curly'),
