@@ -23,6 +23,34 @@ const config = {
   trailingComma: 'all',
   useTabs: false,
   overrides: [
+    // Exclude common build and tooling folders
+    ...[
+      '.next',
+      '.husky',
+      '.turbo',
+      '.vercel',
+      '.output',
+      '.firebase',
+      '.netlify',
+      '.expo',
+      '.storybook',
+      '.cache',
+      'out',
+      'tmp',
+      'temp',
+      'logs',
+      '.idea',
+      '.vscode',
+      '.swc',
+      '.parcel-cache',
+      '.eslintcache',
+      '.stylelintcache',
+      '.coverage',
+      '.nyc_output',
+    ].map((dir) => ({
+      files: `${dir}/**/*`,
+      excludedFiles: '**',
+    })),
     {
       files: ['*.yml', '*.yaml'],
       options: {
