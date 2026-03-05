@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.9.1...prettier-config-v2.10.0) (2026-03-05)
+
+
+### Features
+
+* enhance Prettier configuration by excluding common build and tooling directories ([431b4c2](https://github.com/eng618/prettier-config/commit/431b4c299110d2c82f1a6bb2d296750e6824309e))
+
 ## [2.9.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.9.0...prettier-config-v2.9.1) (2026-02-23)
 
 
