@@ -23,7 +23,7 @@ const config = {
   trailingComma: 'all',
   useTabs: false,
   overrides: [
-    // Exclude common build and tooling folders
+    // Exclude common build and tooling folders (also works for consumers of this sharable config)
     ...[
       '.next',
       '.husky',
@@ -47,6 +47,13 @@ const config = {
       '.stylelintcache',
       '.coverage',
       '.nyc_output',
+      'node_modules',
+      'dist',
+      'build',
+      '.yarn',
+      '.codacy',
+      '.DS_Store',
+      '.pnp.*',
     ].map((dir) => ({
       files: `${dir}/**/*`,
       excludedFiles: '**',
