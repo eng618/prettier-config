@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.10.0...prettier-config-v2.10.1) (2026-03-14)
+
+
+### Bug Fixes
+
+* update comments and enhance directory exclusions in Prettier config ([18a4fc4](https://github.com/eng618/prettier-config/commit/18a4fc42dd1d930fe199949b9be839561312aafd))
+
 ## [2.10.0](https://github.com/eng618/prettier-config/compare/prettier-config-v2.9.1...prettier-config-v2.10.0) (2026-03-05)
 
 
