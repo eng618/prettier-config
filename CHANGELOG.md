@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.2](https://github.com/eng618/prettier-config/compare/prettier-config-v2.10.1...prettier-config-v2.10.2) (2026-08-07)
+
+
+### Bug Fixes
+
+* ignore more common non project directories ([157460c](https://github.com/eng618/prettier-config/commit/157460cbe176fb89ef62cebf6f460bd87563a53f))
+
 ## [2.10.1](https://github.com/eng618/prettier-config/compare/prettier-config-v2.10.0...prettier-config-v2.10.1) (2026-05-27)
 
 
