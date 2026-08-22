@@ -50,6 +50,18 @@ The easiest way to use this config is by referencing it in your `package.json`:
 }
 ```
 
+### Built-in `.prettierignore`
+
+This package ships with a comprehensive `.prettierignore` file that ignores common non-project directories and build artifacts:
+
+- Build and dist directories (`.next`, `dist`, `build`, `coverage`)
+- Dependency directories (`node_modules`, `.yarn`)
+- Tooling and cache (`.git`, `.github`, `.husky`, `.cache`, `.turbo`, `.eslintcache`, `.nycrc`)
+- Environment files (`.env*`)
+- OS files (`.DS_Store`, `Thumbs.db`)
+
+Simply copy the `.prettierignore` file from this package into your project root, or create your own if you need custom patterns.
+
 ### Advanced Setup (prettier.config.js)
 
 If you need to override or extend the config, create a `prettier.config.js` (or `.prettierrc.js`) file:

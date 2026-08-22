@@ -1,45 +1,69 @@
+# Build and dist directories
 /.next
-/.husky/
+/dist
+/build
+/coverage
+/out
+
+# Common tooling directories
+/.git
+/.github
+/.husky
+/.vscode
+/.idea
+/.cache
+/.turbo
 .turbo/
-.vercel/
-.output/
-.firebase/
-.netlify/
-.expo/
-.storybook/
-.cache/
-out/
-tmp/
-temp/
-logs/
-logs/**
+.pnp.*
+.yarn/
+
+# Dependency and lock files
+/node_modules
+bun.lock
+package-lock.json
+yarn.lock
+
+# Environment and config
+.env
+.env.local
+.env.*.local
+
+# Output and temp
+/tmp
+/temp
+/logs
 *.log
-*.tsbuildinfo
-/.idea/
-/.vscode/
-/.swc/
-/.parcel-cache/
+
+# Cache and coverage
 /.eslintcache
 /.stylelintcache
-/.coverage/
-/.nyc_output/
-/.coverage/**
-/.nyc_output/**
-CHANGELOG.md
-node_modules/
-dist/
-build/
-coverage/
-.yarn/
-.pnp.*
-.cache/
-.codacy/
+/.coverage
+/.nyc_output
+.nycrc
+.nycrc.json
+
+# Deployment and hosting
+.vercel/
+.netlify/
+.firebase/
+.output/
+
+# Framework and platform specific
+.expo/
+.storybook/
+.parcel-cache/
+/.parcel-cache
+.swc/
+
+# Code editor and IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
-.pnp.*
-.yarn/
-*.log
-build/
+Thumbs.db
+
+# Misc
+.codacy/
+*.tsbuildinfo
 CHANGELOG.md
-coverage/
-dist/
-node_modules/
